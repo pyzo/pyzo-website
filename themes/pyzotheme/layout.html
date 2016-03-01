@@ -1,0 +1,110 @@
+{% extends "basic/layout.html" %}
+
+{% set script_files = script_files + [pathto("_static/searchtools.js", 1)] %}
+
+{% block htmltitle %}
+{{ super() }}
+
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+
+{% endblock %}
+
+
+{# Removes the link bars (that have the Next and Prev buttons on them. #}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+{%- block sidebarrel %}{%- endblock %} {# Also in sidebar #}
+
+
+{% block sidebar2 %}
+    {{ super() }}
+
+    <div class='menulogo'> <a href="{{ pathto(master_doc) }}">
+        <img src="{{ pathto('_static/' + logo, 1) }}" alt="Logo"/>
+        <span class='title'>{{ theme_title}} </span>
+    </a> </div> 
+    
+    {% if theme_addthis_url %}
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style addthis_32x32_style"
+                addthis:url="{{ theme_addthis_url }}" 
+                addthis:title="{{ theme_addthis_title }}" 
+                addthis:description="{{ theme_addthis_description }}">
+    <a class="addthis_button_google_plusone_share"></a>    
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_facebook"></a> 
+    <a class="addthis_button_linkedin"></a>
+    <a class="addthis_button_compact"></a>    
+    {% if theme_gittip_user %}
+    <iframe style="border: 0; margin: 0; padding: 0;"
+        src="https://www.gittip.com/{{ theme_gittip_user }}/widget.html"
+        width="48pt" height="22pt"></iframe>
+    {% endif %}
+    </div>
+    <script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ec602c863c7f020"></script>
+    <!-- AddThis Button END -->
+    {% endif %}
+    
+
+{% endblock %}
+
+{%- block sidebartoc %}
+    {{ toctree() }}
+{%- endblock %}
+
+{%- block sidebarsearch %}
+    <div class='search'>
+        {# <h3 style="margin-top: 1.5em;">{{ _('Search') }}</h3> #}
+        <form class="search" action="{{ pathto('search') }}" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="{{ _('Search') }}" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+        </form><br />   
+    </search>
+{%- endblock %}
+
+{% block sidebarlogo %}
+{% endblock %}
+
+
+{% block footer %}
+<div class="footer">
+{%- if show_copyright %}
+  {%- if hasdoc('copyright') %}
+    {% trans path=pathto('copyright'), copyright=copyright|e %}&copy; <a href="{{ path }}">Copyright</a> {{ copyright }}.{% endtrans %}
+  {%- else %}
+    {% trans copyright=copyright|e %}&copy; Copyright {{ copyright }}.{% endtrans %}
+  {%- endif %}
+{%- endif %}
+{%- if last_updated %}
+  {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+{%- endif %}
+{%- if show_sphinx %}
+  {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
+{%- endif %}
+{%- if theme_show_rtd %}
+  {% trans %}<br />Theme based on <a href="http://readthedocs.org/">Read The Docs</a>{% endtrans %}
+{% endif %}
+
+
+</div>
+
+
+{% if theme_analytics_code %}
+<!-- Google Analytics Code -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '{{ theme_analytics_code }}']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+{% endif %}
+
+{% endblock %}
+
