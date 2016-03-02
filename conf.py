@@ -20,7 +20,7 @@ ftp_dir = '/webspace/httpdocs/pyzo.tld/'
 
 
 # AWS S3 info for "make s3upload"
-bucket_name = 'www.pyzo.org'
+bucket_name = 'new.pyzo.org'
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -52,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Pyzo'
-copyright = "2013, the Pyzo team" # Sphinx append a trailing dot
+copyright = "2016, the Pyzo team" # Sphinx append a trailing dot
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -110,7 +110,7 @@ html_theme = 'pyzotheme'
 html_theme_options = {  'show_rtd': False, 
                         'title': '',
                         'analytics_code': 'UA-36574395-1',
-                        'gittip_user': 'almarklein',
+                        #'gittip_user': 'almarklein',
                         'addthis_url': 'http://www.pyzo.org',
                         'addthis_title': 'Pyzo - Python to the people',
                         'addthis_description': 'Scientific computing with Python',
@@ -128,7 +128,7 @@ html_title = 'Pyzo - Python to the people'
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = 'pyzologo96wtb.png'
+html_logo = 'pyzologo96.png'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32

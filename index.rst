@@ -9,71 +9,78 @@ Python to the people
 
 
 .. slider::
-   _static/slider_pyzo1.jpg
    _static/slider_pyzo2.jpg
    _static/slider_pyzo3.jpg
    _static/slider_pyzo4.jpg
+   _static/slider_pyzo6.png
+   _static/slider_pyzo7.png
+   _static/slider_pyzo8.png
 
 
 `Pyzo <http://pyzo.org>`_ is a free and open-source computing
-environment based on Python. Our mission is to make tools for
-data-centric programming that are :ref:`easy to obtain <downloads>` and
-:ref:`easy to use <whypython>`.
+environment based on Python. If you're used to e.g. Matlab, Pyzo can be considered a :ref:`free
+alternative <pythonmatlab>`.
+Essentially, Pyzo is a Python IDE, that plays well with 
+`conda <http://conda.pydata.org/miniconda.html>`_ to manage your Python packages
+(though it works with any Python interpreter), and has a website to
+help newcomers on their way.
+The IDE is aimed at interactivity and simplicity, and consists of an
+editor, a shell, and a set of tools to help the programmer in various
+ways.
 
-Essentially, Pyzo is a Python distribution that comes with many
-scientific :ref:`packages <packages>` and a powerful IDE.
-For insiders: Pyzo is based on Python 3, uses Conda for package
-management, comes with IPython, and uses `IEP <http://iep-project.org>`_
-as the main IDE. 
+Get Pyzo going on your machine using the :ref:`quickstart <quickstart>`!
+
+Latest news
+-----------
+
+We've :ref:`merged <iepmerge>`  the Pyzo and IEP projects, and called
+it Pyzo, while we use the IEP logo. This makes a few things much easier
+and avoids some pitfalls that we experienced with the way that Pyzo
+previously worked.
 
 
-.. comment:: old
-   `Pyzo <http://pyzo.org>`_ is an interactive computing framework based
-   on Python, an easy and powerful programming language. It's mission is
-   to provide a computing environment aimed at doing science and building
-   professional applications, that is :ref:`easy to obtain <distro>`, :ref:`easy to use <whypython>`, and
-   :ref:`free <notforptofit>`.
+Testimonials
+------------
 
-
-   To try Pyzo, go :ref:`get it <downloads>` and start coding!
-
-
-News
-----
-
-You can also follow updates by adding `+pyzo <https://plus.google.com/111697067583215378220>`_  
-on google-plus. For version history see the :ref:`release notes <releasenotes>`.
-
-18-02-2015
-==========
-
-Pyzo distro **2015a** is available for download!
-
-03-07-2014
-==========
-
-Pyzo distro **2014a** is available for download!
-
-04-10-2013
-==========
-
-Pyzo distro **2013c** is available for download!
-
-16-03-2013
-==========
-
-Release 2013b of Pyzo distro is available for download!
-
-20-12-2012
-==========
-
-The first release of Pyzo distro is available for download!
-
-26-11-2012
-==========
-
-We've got a new website!
-
+These testimonials about the IDE were selected from the 
+`old discussion group <http://groups.google.com/group/iep_>`_.
+  
+  It's performing beautifully, the UI is very intuitive and stylish (to
+  my eyes anyway). It's about as efficient and powerful as WingIDE, but
+  has significantly fewer UI surprises and crashes compared to WingIDE.
+  It's UI is simpler and cleaner, while still getting it done.
+  This is a very impressive app, on OSX close to alpha dog status (I've
+  used ALL the OSX alternatives). *— Ken*
+  
+  I have configured 4 GUIs (PySide, Tk, PyQt4 and wxPython) for 2
+  Pythons (2.7.5 and your 3.3.0) and all are working well. Unbelievable.
+  *— Tovim*
+ 
+  This is a great program for those of us on OSX. I do not know of another
+  IDE that works this well. *— Jack*
+  
+  For quite a while now I've been looking for a way to switch from Matlab
+  to Python. The last remaining problem was a lack of descent IDE for
+  interactive work. I do a lot of short calculations, so a 'cell'
+  execution mode is crucial for me. Thanks again for a great project! 
+  *— Jev*
+  
+  This is fantastic IDE - exactly what I was looking for! *— Matt*
+  
+  I don't even remember how I found [Pyzo], so confused and desperate I was
+  testing [all available IDE's] I could find. Installed it, and 10 minutes
+  later I was coding, connecting with a glade created user interface, and
+  everything is running so well. I ain't gonna change now. [Pyzo] is my
+  choice. Thank you very much, and keep up this amazing work. *— Jose*
+  
+  Thank you for a great Python IDE. *— Stan*
+  
+  What I like especially of [Pyzo] is the plain and simple design of the
+  UI (a Qt feature :)  while providing really powerful functionality.
+  Please, keep this project running. *— Hans*
+  
+  This is EXACTLY the python IDE I have been waiting for, even though I
+  didn't know it. Excellent job! *— Jaap*
 
 
 Site map
@@ -82,9 +89,8 @@ Site map
 .. toctree::
    :maxdepth: 2
    
-   Download <downloads>
+   Quickstart <start>
    About Python <about_python>
    About Pyzo <about_pyzo>
+   Guide <guide>
    Learn <learn>
-   FAQ <faq>
-

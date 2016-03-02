@@ -41,13 +41,13 @@ Via pip:
 * ``sudo python3 -m pip install sympy nose`` - scipy stack (part 2)
 * ``sudo python3 -m pip install sklearn`` - scikit-learn (need compiler)
 * ``sudo python3 -m pip install imageio pyopengl visvis`` - 3D Visualization 
-* ``sudo python3 -m pip install pygments pyzolib iep`` - the IDE
+* ``sudo python3 -m pip install pygments pyzo`` - the IDE
 
 In just two commands:
 
 ``sudo apt-get install python3 python3-pip libqt4-opengl python3-pyside python3-numpy python3-scipy python3-matplotlib python3-pandas python3-nose ipython3 ipython3-notebook ipython3-qtconsole python3-skimage``
 
-``sudo python3 -m pip install sympy nose imageio pyopengl visvis pygments pyzolib iep scikit-learn``
+``sudo python3 -m pip install sympy nose imageio pyopengl visvis pygments pyzo scikit-learn``
 
 
 

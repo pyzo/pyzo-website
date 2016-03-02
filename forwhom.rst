@@ -6,11 +6,11 @@ Who can benefit from Python?
 
 The goal of Pyzo is to make Python easier accessible for a large
 audience. We distinguish three core user groups.
-
-For all users Pyzo has the advantage that Pyzo is free. This means that
-students can use it at home. Hobbyist can fool around without having
-to resort to an "illegal version". University groups can safe money.
-And (tech) startups do not have to invest in expensive software.
+For all users Pyzo has the advantage that Pyzo and Python are free.
+This means that students can use it at home. Hobbyist can fool around
+without having to resort to an "illegal version". University groups can
+safe money. And (tech) startups do not have to invest in expensive
+software.
 
 
 Students and schools

@@ -54,7 +54,7 @@ The solution
     installation is transparent, so additional packages can be installed
     in the conventional way. 
   * We have been working for several years on our *IDE*, and we’re getting
-    very positive feedback. IEP is the portal through which one uses Pyzo.
+    very positive feedback.
   * We engage on improving **standards and documentation** of our 
     own packages as well as that of
     other projects. Further we will develop more tools to use the

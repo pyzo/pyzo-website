@@ -6,7 +6,6 @@ import xml.etree.ElementTree as et
 
 download_urls = [   'http://bitbucket.org/pyzo/pyzo/downloads' ]
 
-
 INFO_INTRO = """
 You're just a couple of minutes away from doing scientific computing in Python!
 You can safely try Pyzo, since it is designed to be minimally intruisive

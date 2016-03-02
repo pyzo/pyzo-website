@@ -13,8 +13,7 @@ Note that you can also ask questions in the
 
 
 Issue lists:
-  * `IEP issues <http://bitbucket.org/iep-project/iep/issues>`_
-  * `Pyzo issues <http://bitbucket.org/pyzo/pyzo/issues>`_
+  * `Pyzo issues <https://github.com/pyzo/pyzo/issues>`_
   * For other issues, seek out the issue list via the website of the 
     corresponding project. See Pyzo's :ref:`packages <packages>` 
     for a list of links.

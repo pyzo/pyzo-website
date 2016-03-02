@@ -78,7 +78,7 @@ def upload_website(bucket_name, dir_name):
             
             # Create key
             k = Key(bucket)
-            k.key = fname_remote
+            k.key = fname_remote.replace('\\', '/')
             # Set metadata
             content_type = CONTENT_TYPES.get(os.path.splitext(fname)[1].lower(), None)
             if content_type is not None:
@@ -115,10 +115,10 @@ class FileLoaderProgress:
     
     def __call__(self, i, nmax):
         # Calculate progress
-        percent = 100.0 * i / nmax
+        percent = 100.0 * i / (nmax + 0.1)
         # Calculate speed
         n = i - self._i
-        speed = n / (time.time() - self._lasttime)
+        speed = n / (time.time() - self._lasttime + 0.000001)
         self._lasttime = time.time()
         # Print it
         untext = '\b'*len(self._text)
@@ -186,11 +186,11 @@ def create_html_redirect(url, target):
     print(bucket.get_website_endpoint())
 
     
-if __name__ == '__main__':
-    sys.path.insert(0, '.')
-    import conf
-    html_dir = os.path.abspath(os.path.join('_build', 'html'))
-    bucket_name = conf.bucket_name
-    upload_website(bucket_name, html_dir)
+# if __name__ == '__main__':
+#     sys.path.insert(0, '.')
+#     import conf
+#     html_dir = os.path.abspath(os.path.join('_build', 'html'))
+#     bucket_name = conf.bucket_name
+#     upload_website(bucket_name, html_dir)
 
 

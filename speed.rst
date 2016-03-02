@@ -31,10 +31,9 @@ code that will run fast in Python:
     if you do it right, your code will become as fast as C. The downside
     is that you need a C compiler on your machine.
 
-  * `Numba <http://numba.pydata.org/>`_ is a relatively new project.
-    It allows compilation (via LLVM) of array-oriented Python code with
-    only adding a single line of code. Yo use Numba in Pyzo,  do
-    ``conda install numba``.
+  * `Numba <http://numba.pydata.org/>`_ allows compilation (via LLVM)
+    of array-oriented Python code with only adding a single line of
+    code. To use Numba in Pyzo,  do ``conda install numba``.
 
   * Ctypes is a build-in library that allows one to call function in a
     dynamic library. This can be a very effective means to communicate
@@ -42,5 +41,3 @@ code that will run fast in Python:
 
   * Cython can also be used to wrap your exitsing C/C++ code for Python.
     You are then using Cython in a way that is similar to Matlab's mex-files.
-
-    
