@@ -30,7 +30,7 @@ functionality, but does include matrix algebra and an extensive library
 for data processing and plotting. For extra functionality the Mathworks
 provides toolkits (but these cose you extra).
 
-.. image:: https://docs.google.com/drawings/d/1IditELHVqBp-2WguBkhSdVR3prjXvVGnLPmqDtBeKuM/pub?w=560
+.. image:: _static/pythonvsmatlab.png
     :align: center
 
 *Diagram illustrating the differences between Python and

@@ -4,10 +4,6 @@
 Why Pyzo
 ========
 
-  .. no-image:: _static/pyzo_code_perspective.jpg
-    :align: center
-
-
 Python and free software
 ------------------------
 

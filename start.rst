@@ -20,9 +20,9 @@ Install the Pyzo IDE
 --------------------
 
 Here are links to download Pyzo for
-`Windows (64 bit) <xxx.exe>`_ ,
-`OS X (64 bit) <hxxx-x86_64.sh>`_ , and
-`Linux (64 bit) <xxxx86_64.sh>`_ .
+`Pyzo Windows (64 bit) <xxx.exe>`_ ,
+`Pyzo OS X (64 bit) <hxxx-x86_64.sh>`_ , and
+`Pyzo Linux (64 bit) <xxxx86_64.sh>`_ .
 For more downloads see the :ref:`download page <downloads>`.
 (It does not matter in what order you install the environment and the
 IDE.)
@@ -39,9 +39,9 @@ because these make it very easy to install additional (scientific) packages.
 Make sure to use Python 3, and not Python 2.
 
 Here are links to download miniconda for
-`Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-Windows-x86_64.exe>`_ ,
-`OS X (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-MacOSX-x86_64.sh>`_ , and
-`Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh>`_ .
+`miniconda Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-Windows-x86_64.exe>`_ ,
+`miniconda OS X (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-MacOSX-x86_64.sh>`_ , and
+`miniconda Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh>`_ .
 We recommend using the default location, or at least a location that can be written
 to without admin privileges, so that addtional packages can be installed.
 

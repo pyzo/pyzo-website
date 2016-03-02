@@ -28,7 +28,7 @@ should not occur anymore.
 
 
 On OSX, after a conda update, Pyzo fails to start
-================================================
+=================================================
 
 This has been an issue with that way that Pyzo worked previously, but
 should not occur anymore. See https://bitbucket.org/pyzo/pyzo/issue/30.
