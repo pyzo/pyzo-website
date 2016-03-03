@@ -33,6 +33,8 @@ Get Pyzo going on your machine using the :ref:`quickstart <quickstart>`!
 Latest news
 -----------
 
+Pyzo 4.0 is out!
+
 We've :ref:`merged <iepmerge>`  the Pyzo and IEP projects, and called
 it Pyzo, while we use the IEP logo. This makes a few things much easier
 and avoids some pitfalls that we experienced with the way that Pyzo

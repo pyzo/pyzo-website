@@ -22,9 +22,9 @@ Install the Pyzo IDE
   
 Here are links to download:
     
-* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.0/pyzo-4.0-win32.exe>`_
-* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.0/pyzo-4.0-osx64.dmg>`_
-* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.0/pyzo-4.0-linux64.tar.gz>`_
+* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.0/pyzo-4.0.1-win32.exe>`_
+* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.0/pyzo-4.0.1-osx64.dmg>`_
+* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.0/pyzo-4.0.1-linux64.tar.gz>`_
 * For more downloads/information see the :ref:`installation page <install>`
 
 
