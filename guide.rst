@@ -18,7 +18,7 @@ and a Python environment.
       :maxdepth: 1
       
       Short introduction <pyzo_intro>
-      Installing additional packages <install>
+      Installing additional packages <install_packages>
       Configuring shells <shellconfig>
       Interactive vs script mode <interactive_vs_script>
       FAQ <faq>

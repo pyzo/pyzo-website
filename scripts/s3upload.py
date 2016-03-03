@@ -186,11 +186,11 @@ def create_html_redirect(url, target):
     print(bucket.get_website_endpoint())
 
     
-# if __name__ == '__main__':
-#     sys.path.insert(0, '.')
-#     import conf
-#     html_dir = os.path.abspath(os.path.join('_build', 'html'))
-#     bucket_name = conf.bucket_name
-#     upload_website(bucket_name, html_dir)
+if __name__ == '__main__':
+    sys.path.insert(0, '.')
+    import conf
+    html_dir = os.path.abspath(os.path.join('_build', 'html'))
+    bucket_name = conf.bucket_name
+    upload_website(bucket_name, html_dir)
 
 

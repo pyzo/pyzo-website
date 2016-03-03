@@ -1,8 +1,8 @@
-======================================
-Pyzo distro End User License Agreement
-======================================
+===============================
+Pyzo End User License Agreement
+===============================
 
-Pyzo distro ("the Software Product") and accompanying documentation is
+Pyzo ("the Software Product") and accompanying documentation is
 licensed and not sold. The Software Product is protected by copyright
 laws and treaties, as well as laws and treaties related to other forms
 of intellectual property. The Pyzo team or its subsidiaries,
@@ -19,7 +19,7 @@ are available either in the package itself or via request to
 almar.klein@gmail.com. The Pyzo team reserves the right to change
 which Other Vendor Tools are provided in the Software Product.
 
-Redistribution and use of Pyzo distro, with or without modification,
+Redistribution and use of Pyzo, with or without modification,
 in source or binary form is explicitly permitted provided that:
   * You include a copy of this EULA in all copies of the derived
     software

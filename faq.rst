@@ -17,7 +17,7 @@ Multiple :ref:`reasons <iepmerge>`.
 How do I install additional packages in Pyzo?
 =============================================
 
-See the :ref:`install section <install>` in the guide.
+See the :ref:`install section <install_packages>` in the guide.
 
 
 On Windows, after a conda update, numpy is broken, and the IDE won't start

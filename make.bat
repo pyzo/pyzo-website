@@ -194,4 +194,11 @@ if "%1" == "show" (
 	goto end
 )
 
+if "%1" == "s3upload" (
+	python scripts/s3upload.py
+	if errorlevel 1 exit /b 1
+	echo.	
+	goto end
+)
+
 :end

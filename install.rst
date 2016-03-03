@@ -1,28 +1,47 @@
 .. _install:
-    
+
 ==============================
-Installing additional packages
+Pyzo installation instructions
 ==============================
 
-Installing additional (scientific) packages is generally very easy.
-Try in this order to install package "xx":
-    
-* ``conda install xx``
-* ``pip install xx``
-* If you are on Windows, visit `Gohlke's collection of Python packages <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ .
-* Ask maintainers of the package how to install it.
-* Ask in Pyzo mailing list.
+Installation should be as easy as downloading the installation file for
+your platform. A list of `all available binaries
+<https://github.com/pyzo/pyzo/releases>`_ is on Github.
 
-Some background. The ``conda`` command installs binary packages, and is
-therefore the easiest solution. However, a package must have been pre-build
-in order for this to work. Therefore it may not work for less common packages.
 
-The ``pip`` command downloads a package from the
-`Python package index <https://pypi.python.org>`_ and installs it from source.
-Probably about 95% of all packages are listed on Pypi. However, if the package
-is not pure Python (i.e. it needs to be compiled) this will probably
-not work unless you're using Linux.
+Windows
+-------
+* The easiest way to install Pyzo on Windows is to use the installer
+  (which does not require admin rights).
+* Alternatively, you can download and unpack the zip-file. You can place
+  the Pyzo directory anywhere you like.
 
-Also note that some packages may not be suitable for Python 3. Such a
-package is probably not maintained very well, so you may want to
-consider an alternative.
+Linux
+-----
+* To install Pyzo on Linux, download and extract the archive
+  corresponding to your architecture. 
+* In case you want to place a link on your desktop for convenience,
+  icons are in the *source/pyzo/resources/appicons* folder.
+* The binaries for Linux are build on Ubuntu Lucid Lynx, so should
+  work on most modern Linux distros (glibc >= 2.11).
+* You may be able to install Pyzo using ``apt-get install pyzo`` (not yet).
+* You can ``apt-get install python3-pyqt4`` and then ``python3 -m pip install pyzolib pyzo``.
+
+OS X
+----
+* To install Pyzo on Mac, mount the disk image and copy the pyzo
+  directory to to your user directory. 
+* The binaries are build on OSX 10.6.2 and should work on Snow Leopard
+  and above.
+
+Uninstalling
+------------
+To remove Pyzo distro, either run the uninstaller (when you used the
+installer on Windows), or simply remove the directory that you unpacked
+from the archive.
+
+Eula
+----
+Pyzo distro is free software. No limitations, no DRM. Please read the Pyzo
+distro end user agreement for details: `Pyzo EULA
+<_static/pyzo_eula.txt>`_.
