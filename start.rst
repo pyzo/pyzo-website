@@ -44,9 +44,9 @@ Make sure to use Python 3, and not Python 2.
 
 Here are direct links to download:
     
-* `miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-Windows-x86_64.exe>`_
-* `miniconda for OS X (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-MacOSX-x86_64.sh>`_
-* `miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh>`_
+* `miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_
+* `miniconda for OS X (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh>`_
+* `miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh>`_
 
 We recommend installing in the default location, or at least a location
 that can be written to without admin privileges, so that addtional
