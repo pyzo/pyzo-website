@@ -13,8 +13,8 @@ you write your code), a Python environment (in which you run your code),
 and scientific packages.
 
 
-Install the Pyzo IDE
---------------------
+Step 1: install the Pyzo IDE
+----------------------------
 
 .. image:: _static/download.png
   :align: right
@@ -28,8 +28,8 @@ Here are links to download:
 * For more downloads/information see the :ref:`installation page <install>`
 
 
-Install Python environment
---------------------------
+Step 2: install Python environment
+----------------------------------
 
 .. image:: _static/download.png
   :align: right
@@ -44,17 +44,18 @@ Make sure to use Python 3, and not Python 2.
 
 Here are direct links to download:
     
-* `miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_
-* `miniconda for OS X (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh>`_
-* `miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh>`_
+* `Miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_
+* `Miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh>`_
+* `Anaconda for OS X (64 bit) <https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda3-2.5.0-MacOSX-x86_64.pkg>`_ (grapical installer)
+
 
 We recommend installing in the default location, or at least a location
 that can be written to without admin privileges, so that addtional
 packages can be installed.
 
 
-Manually specify an interpreter
--------------------------------
+Step 2b: Tell Pyzo what environment to use
+------------------------------------------
 
 You can usually skip this step, because the environment is generally
 automatically detected. If this is not the case (e.g. it was not
@@ -63,8 +64,8 @@ dialog (menu > shell > edit shell configuration), and set the value of
 "exe" to the path of the Python executable.
 
 
-Install Scientific packages
----------------------------
+Step 3: Install Scientific packages
+-----------------------------------
 
 For scienctific computing with Python, you need a few extra package.
 In Pyzo's shell, type:
@@ -80,7 +81,7 @@ Hooray, you just installed a new package! Now type:
     conda install pyqt matplotlib pandas sympy
     
 Now you have the most important scientific Python packages (a.k.a. the scipy-stack).
-If you need a package that is not yet installed, and conda does not
+If you need a package that is not yet installed, and the conda command does not
 work, see :ref:`this guide <install_packages>`.
 
 

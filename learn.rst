@@ -40,6 +40,22 @@ to improve them. Here are some sites where you can do that:
   * `Code academy <http://www.codecademy.com/>`_ (nice exercises)
 
 
+Transitioning from Matlab
+=========================
+
+If you are transitioning to Python from Matlab, you may find that some
+things work differently in Python.
+
+* Python searches for modules to import in selected directories that can be set
+  in the ``PYTHONPATH``, which you can set in the shell configuration dialog.
+  Modules relative to the file being executed are only found if the file
+  is executed as a script.
+* If a module is already imported, Python will not load it again (even if it
+  has changed). You can use "execute as a script" to get a fresh interpreter.
+* Arrays are provided by the numpy package. Read more on
+  `differences between Numpy and Matlab <http://matlab.pyzo.org>`_.
+
+
 .. _packages:
 
 Packages

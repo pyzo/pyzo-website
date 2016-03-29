@@ -195,9 +195,7 @@ if "%1" == "show" (
 )
 
 if "%1" == "s3upload" (
-	python scripts/s3upload.py
-	if errorlevel 1 exit /b 1
-	echo.	
+	s3cmd sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl-public --delete-removed
 	goto end
 )
 

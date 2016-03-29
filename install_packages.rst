@@ -9,9 +9,13 @@ Try in this order to install package "xx":
     
 * ``conda install xx``
 * ``pip install xx``
-* If you are on Windows, visit `Gohlke's collection of Python packages <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ .
+* Search on http://anaconda.org for available packages. If you find that John build the package
+  that you need, use ``conda install -c john xxx``.
 * Ask maintainers of the package how to install it.
 * Ask in Pyzo mailing list.
+* If you are on Windows, you can visit 
+  `Gohlke's collection of Python packages <http://www.lfd.uci.edu/~gohlke/pythonlibs/>`_ .
+  Download the required ``.whl`` file and use ``pip install location/to/xxx.whl``.
 
 Some background. The ``conda`` command installs binary packages, and is
 therefore the easiest solution. However, a package must have been pre-build
