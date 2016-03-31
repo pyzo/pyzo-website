@@ -28,6 +28,8 @@ Here are links to download:
 * For more downloads/information see the :ref:`installation page <install>`
 
 
+.. _install-conda:
+
 Step 2: install Python environment
 ----------------------------------
 
@@ -44,7 +46,7 @@ Make sure to use Python 3, and not Python 2.
 
 Here are direct links to download:
     
-* `Miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_
+* `Miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_ (grapical installer)
 * `Miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh>`_
 * `Anaconda for OS X (64 bit) <https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda3-2.5.0-MacOSX-x86_64.pkg>`_ (grapical installer)
 
