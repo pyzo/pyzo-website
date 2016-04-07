@@ -20,7 +20,7 @@ ftp_dir = '/webspace/httpdocs/pyzo.tld/'
 
 
 # AWS S3 info for "make s3upload"
-bucket_name = 'new.pyzo.org'
+bucket_name = 'www.pyzo.org'
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
