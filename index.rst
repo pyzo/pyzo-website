@@ -28,7 +28,9 @@ The IDE is aimed at interactivity and simplicity, and consists of an
 editor, a shell, and a set of tools to help the programmer in various
 ways.
 
-Get Pyzo going on your machine using the :ref:`quickstart <quickstart>`!
+Get Pyzo going on your machine using the :ref:`quickstart <quickstart>`, or
+check the code on `Github <http://github.com/pyzo/pyzo>`_
+
 
 Latest news
 -----------

@@ -8,6 +8,15 @@ Questions
 ---------
 
 
+Can I still distribute a conda environment together with Pyzo
+=============================================================
+
+Yes, Pyzo detects interpreters relative to itself, so you can just
+create a conda environment, put the Pyzo binary in its root, and
+distribute that as a whole.
+
+
+
 Why does Pyzo not come with a Python environment anymore?
 =========================================================
 

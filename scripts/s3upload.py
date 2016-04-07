@@ -185,7 +185,7 @@ def create_html_redirect(url, target):
     print('To enable the link of %s, set its CNAME record to:' % url)
     print(bucket.get_website_endpoint())
 
-    
+
 if __name__ == '__main__':
     sys.path.insert(0, '.')
     import conf
