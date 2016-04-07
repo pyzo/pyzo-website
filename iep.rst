@@ -5,9 +5,11 @@ Merging the Pyzo and IEP project
 ================================
 
 
+.. image:: _static/pyzo_iep_merge.png
+
 We merged the Pyzo and IEP projects into a single project:
 
-* The name is Pyzo
+* The new name is Pyzo
 * The logo is the one from IEP
 * It is not longer a distribution, but a lightweight IDE (like IEP was)
   that helps the user install a (miniconda) environment.
@@ -18,12 +20,9 @@ Why? In short, there are two main reasons:
 * It was a lot of work to maintain for us (which we do in our free time).
 
 
-.. image:: _static/pyzologo96_old.png
+Some history ...
 
-.. image:: _static/pyzologo96.png
-
-
-Previously, Pyzo were two projects. IEP was the IDE, and Pyzo was a
+Previously, there were two projects. IEP was the IDE, and Pyzo was a
 distribution that made it easy to install a Python environment and the
 IEP IDE.
 
@@ -38,5 +37,5 @@ that the IDE worked from the same environment in which the computing
 was done, especially for updating packages.
 
 Therefore we decided to decouple the distribution; people can just
-install conda. We made changed to the IDE to guide the user in this
-process, so that getting started is still easy as py.
+install a conda environment. We made changes to the IDE to guide the
+user in this process, so that getting started is still easy as py.
