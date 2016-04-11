@@ -8,8 +8,21 @@ Questions
 ---------
 
 
-Can I still distribute a conda environment together with Pyzo
-=============================================================
+Whay is Matplotlib not interactive?
+===================================
+
+When working with Matplotlib, make sure you have ``pyqt`` installed
+(``conda install pyqt``). The shell should integrate it automatically.
+Then, you need to tell Matplotlib to be interactive:
+    
+.. code-block:: python
+
+    import matplotlib.pyplot as plt
+    plt.ion()
+
+
+Can I still distribute a conda environment together with Pyzo?
+==============================================================
 
 Yes, Pyzo detects interpreters relative to itself, so you can just
 create a conda environment, put the Pyzo binary in its root, and
