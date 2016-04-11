@@ -7,6 +7,10 @@ Pyzo installation instructions
 Installation should be as easy as downloading the installation file for
 your platform. A list of `all available binaries
 <https://github.com/pyzo/pyzo/releases>`_ is on Github.
+There is also a list of
+`earlier versions of Pyzo-distro <https://bitbucket.org/pyzo/pyzo/downloads>`_,
+and
+`earlier versions of IEP <https://bitbucket.org/iep-project/iep/downloads>`_.
 
 
 Windows

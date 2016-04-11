@@ -13,7 +13,7 @@ Product is subject to these rights and to all the terms and conditions
 of this End User License Agreement ("Agreement").
 
 The Software Product contains a collection of software packages from
-other sources ("Other Vendor Tools"). These are available on an “as is”
+other sources ("Other Vendor Tools"). These are available on an "as is"
 basis and subject to their individual license agreements. These licenses
 are available either in the package itself or via request to
 almar.klein@gmail.com. The Pyzo team reserves the right to change
