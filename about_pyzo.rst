@@ -36,6 +36,7 @@ We also have a `discussion group <http://groups.google.com/group/pyzo>`_.
     Pyzo and IEP merger <iep>
     Mission <mission>
     Features <features>
+    Themes <pyzo_themes>
     Screenshots <screenshots>
     Release notes <https://github.com/pyzo/pyzo/wiki/Release_notes>
 
