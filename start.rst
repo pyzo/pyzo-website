@@ -22,9 +22,9 @@ Step 1: install the Pyzo IDE
   
 Here are links to download:
     
-* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.1/pyzo-4.1-win32.exe>`_
-* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.1/pyzo-4.1-osx64.dmg>`_
-* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.1/pyzo-4.1.1-linux64.tar.gz>`_
+* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.2.1/pyzo-4.2.1-win32.exe>`_
+* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.2.1/pyzo-4.2.1-osx64.dmg>`_
+* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.2.1/pyzo-4.2.1-linux64.tar.gz>`_
 * For more downloads/information see the :ref:`installation page <install>`
 
 
@@ -48,7 +48,7 @@ Here are direct links to download:
     
 * `Miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_ (grapical installer)
 * `Miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh>`_
-* `Anaconda for OS X (64 bit) <https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda3-2.5.0-MacOSX-x86_64.pkg>`_ (grapical installer)
+* `Anaconda for OS X (64 bit) <http://repo.continuum.io/archive/Anaconda3-4.0.0-MacOSX-x86_64.pkg>`_ (grapical installer)
 
 
 We recommend installing in the default location, or at least a location
