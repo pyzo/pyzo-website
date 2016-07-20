@@ -34,6 +34,7 @@ Once you know the basics, it's good to practice your skills in order
 to improve them. Here are some sites where you can do that:
 
   * `Scipy lectures <http://scipy-lectures.github.io/>`_
+  * `Datacamp <https://www.datacamp.com>`_ offerse free and paid courses in Python for data science.
   * `Project Euler <http://projecteuler.net/>`_ (mathematical puzzles)
   * `CheckIO <http://www.checkio.org/>`_ (game)
   * `Python challenge <http://www.pythonchallenge.com/>`_ (game with riddles)
