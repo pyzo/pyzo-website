@@ -9,8 +9,7 @@ Getting started with Pyzo
     :align: center
 
 To get started with Pyzo, you need to install the Pyzo IDE (in which
-you write your code), a Python environment (in which you run your code),
-and scientific packages.
+you write your code) and a Python environment (in which you run your code).
 
 
 Step 1: install the Pyzo IDE
@@ -22,9 +21,9 @@ Step 1: install the Pyzo IDE
   
 Here are links to download:
     
-* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.2.1/pyzo-4.2.1-win32.exe>`_
-* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.2.1/pyzo-4.2.1-osx64.dmg>`_
-* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.2.1/pyzo-4.2.1-linux64.tar.gz>`_
+* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.3/pyzo-4.3-win32.exe>`_
+* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.3/pyzo-4.3-osx64.dmg>`_
+* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.3/pyzo-4.3-linux64.tar.gz>`_
   (or install Pyzo :ref:`the Linux way <install_linux>`.)
 * For more downloads/information see the :ref:`installation page <install>`
 
@@ -49,7 +48,7 @@ Here are direct links to download:
     
 * `Miniconda for Windows (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe>`_ (grapical installer)
 * `Miniconda for Linux (64 bit) <https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh>`_
-* `Anaconda for OS X (64 bit) <http://repo.continuum.io/archive/Anaconda3-4.0.0-MacOSX-x86_64.pkg>`_ (grapical installer)
+* `Anaconda for OS X (64 bit) <https://repo.continuum.io/archive/Anaconda3-4.1.1-MacOSX-x86_64.pkg>`_ (grapical installer)
 
 
 We recommend installing in the default location, or at least a location
@@ -75,13 +74,13 @@ In Pyzo's shell, type:
 
 .. code-block:: none
     
-    conda install scipy
+    conda install numpy
 
 Hooray, you just installed a new package! Now type:
 
 .. code-block:: none
     
-    conda install pyqt matplotlib pandas sympy
+    conda install scipy pyqt matplotlib pandas sympy
     
 Now you have the most important scientific Python packages (a.k.a. the scipy-stack).
 If you need a package that is not yet installed, and the conda command does not
@@ -93,3 +92,11 @@ Further steps
 
 You should now be set up to start coding! You can also learn more about
 :ref:`using the IDE <guide>` and about :ref:`using Python <learn>`.
+
+
+Updating
+--------
+
+Pyzo and the Python environment can safely be updated/reinstalled independently from each-other.
+Similarly, you can install multiple Python environments and use/manage them all via Pyzo.
+Individual packages within a Python environment can be updated via ``conda update xx``.

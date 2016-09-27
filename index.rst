@@ -32,17 +32,11 @@ Get Pyzo going on your machine using the :ref:`quickstart <quickstart>`, or
 check the code on `Github <http://github.com/pyzo/pyzo>`_.
 
 
-Latest news
------------
+Latest version
+--------------
 
-Pyzo 4.2 is out!
+The current version is 4.3 (released on 27-09-2016). :ref:`Get it <quickstart>` now.
 
-Pyzo 4.1 is out!
-
-We've :ref:`merged <iepmerge>`  the Pyzo and IEP projects, and called
-it Pyzo, while we use the IEP logo. This makes a few things much easier
-and avoids some pitfalls that we experienced with the way that Pyzo
-previously worked.
 
 
 Testimonials
