@@ -8,8 +8,18 @@ Questions
 ---------
 
 
-Whay is Matplotlib not interactive?
-===================================
+How can I use Pyzo with a virtual env?
+======================================
+
+To use Python interpreters from a virtualenv in Pyzo, set the environment
+variable ``PATH=/path/to/venv/bin:$PATH`` in the shell configuration, and
+set the ``EXE`` to ``python``. Note that the ``$PATH`` is only expanded from
+Pyzo version 4.4 (to be released).
+See also `issue #403 <https://github.com/pyzo/pyzo/issues/403>`_.
+
+
+Why is Matplotlib not interactive?
+==================================
 
 When working with Matplotlib, make sure you have ``pyqt`` installed
 (``conda install pyqt``). The shell should integrate it automatically.
