@@ -155,11 +155,14 @@ REDIRECT = """<html>
 </html>
 """
 
-def create_html_redirect(url, target):
+def create_html_redirect(url, target, path=None):
     """ Create an html redirect for a domain name. 
     You can also use this to initialize a bucket for website use.
     Buckets are created in EU (because that's where we live :) )
     """
+    path1 = path or 'index.html'
+    target += ('/' + path) if path else ''
+    
     # Create bucket (or return existing)
     try:
         bucket = conn.create_bucket(url, location=Location.EU)
@@ -167,12 +170,13 @@ def create_html_redirect(url, target):
         bucket = conn.get_bucket(url)
     
     # Turn it into a website
-    bucket.configure_website('index.html')
-    bucket.set_policy(POLICY % url)
+    if not path:
+        bucket.configure_website('index.html')
+        bucket.set_policy(POLICY % url)
     
     # Create key for index doc
-    k = Key(bucket)
-    k.key = 'index.html'
+    k = Key(bucket, path1)
+    # k.key = path1
     k.set_metadata('Content-Type', 'text/html')
     
     # Upload index.html

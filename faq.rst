@@ -12,10 +12,15 @@ How can I use Pyzo with a virtual env?
 ======================================
 
 To use Python interpreters from a virtualenv in Pyzo, set the environment
-variable ``PATH=/path/to/venv/bin:$PATH`` in the shell configuration, and
-set the ``EXE`` to ``python``. Note that the ``$PATH`` is only expanded from
-Pyzo version 4.4 (to be released).
-See also `issue #403 <https://github.com/pyzo/pyzo/issues/403>`_.
+variables ``PATH`` and ``VIRTUAL_ENV`` in the shell configuration, and
+set the interpreted ``EXE`` to ``python``. Note that the ``$PATH`` is only
+expanded from Pyzo version 4.4 (to be released).
+See also `issue #403 <https://github.com/pyzo/pyzo/issues/403>`_:
+
+.. code-block:: none
+    
+    VIRTUAL_ENV=/path/to/venv
+    PATH=/path/to/venv/bin:$PATH 
 
 
 Why is Matplotlib not interactive?

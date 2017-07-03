@@ -9,7 +9,13 @@ Note that some packages may not be suitable for Python 3. Such a
 package is probably not maintained very well, so you may want to
 consider an alternative. Try in this order to install package "xx":
 
-    
+Command for convenience
+-----------------------
+
+Pyzo provides three sommands as a convenience that use the conda commands below:
+``install xx``, ``update xx``, ``remove xx``.
+
+
 Install using conda
 -------------------
 
