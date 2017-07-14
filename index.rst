@@ -35,11 +35,7 @@ check the code on `Github <http://github.com/pyzo/pyzo>`_.
 Latest version
 --------------
 
-The current version is 4.4 (released on 29-06-2017). :ref:`Get it <quickstart>` now.
-
-The current release has issues with oblique fonts on OS X. This issue has been found
-and fixed, and a release will follow soon. For the time being, select a different font
-via the View menu.
+The current version is 4.4.1 (released on 14-07-2017). :ref:`Get it <quickstart>` now.
 
 
 Testimonials
