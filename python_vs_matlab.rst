@@ -90,8 +90,8 @@ as a matrix manipulation package:
   * The semicolon. It can be usefull to show the result when you type
     code in the console, but in scripts it does not make any sense that
     one must end a line with a semicolon in order to suppress output.
-  * Indexing is done with braces rather than brackets, making it 
-    difficult to distinguish it from a function call.
+  * Indexing is done with parentheses (round brackets) rather than (square) 
+    brackets, making it difficult to distinguish it from a function call.
         
 
 Advantages of Matlab 
