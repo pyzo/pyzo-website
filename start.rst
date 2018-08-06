@@ -21,9 +21,9 @@ Step 1: install the Pyzo IDE
   
 Here are links to download:
     
-* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.5.1/pyzo-4.5.1-win32.exe>`_
-* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.5.1/pyzo-4.5.1-osx64.dmg>`_
-* `Pyzo for Linux (64 bit) <https://github.com/pyzo/pyzo/releases/download/v4.5.1/pyzo-4.5.1-linux64.tar.gz>`_
+* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-win64.exe>`_
+* `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-osx64.dmg>`_
+* `Pyzo for Linux <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-linux64.tar.gz>`_
   (or install Pyzo :ref:`the Linux way <install_linux>`.)
 * For more downloads/information see the :ref:`installation page <install>`
 
@@ -38,8 +38,8 @@ Step 2: install Python environment
   :width: 100px
 
 To run Python code, you need a Python interpreter.
-Pyzo works with most Python interpreters, but
-we recommend installing `miniconda <https://conda.io/miniconda.html>`_,
+Pyzo works with most Python interpreters.
+We recommend installing `miniconda <https://conda.io/miniconda.html>`_,
 or `anaconda <https://www.anaconda.com/download/>`_ if you intend to do science,
 because these make it very easy to install additional (scientific) packages.
 Make sure to use Python 3, and not Python 2.

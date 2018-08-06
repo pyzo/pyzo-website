@@ -2,7 +2,7 @@
 Small sphinx extension to enable making image sliders.
 """
 
-from sphinx.util.compat import Directive
+from docutils.parsers.rst import Directive
 from docutils import nodes
 
 class slider(nodes.raw): pass
@@ -12,6 +12,7 @@ def visit_slider_html(self, node):
     self.body.append("<div id='slider'>\n")
     for im in node.images:
         self.body.append("    <img src='%s' />\n" % im)
+
 def depart_slider_html(self, node):
     self.body.append('</div>\n')
 

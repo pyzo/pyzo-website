@@ -7,11 +7,6 @@ Pyzo installation instructions
 Installation should be as easy as downloading the installation file for
 your platform. A list of `all available binaries
 <https://github.com/pyzo/pyzo/releases>`_ is on Github.
-There is also a list of
-`earlier versions of Pyzo-distro <https://bitbucket.org/pyzo/pyzo/downloads>`_,
-and
-`earlier versions of IEP <https://bitbucket.org/iep-project/iep/downloads>`_.
-
 
 Windows
 -------
@@ -26,8 +21,8 @@ Linux
   corresponding to your architecture. 
 * In case you want to place a link on your desktop for convenience,
   icons are in the *source/pyzo/resources/appicons* folder.
-* The binaries for Linux are build on Ubuntu Lucid Lynx, so should
-  work on most modern Linux distros (glibc >= 2.11).
+* The binaries for Linux are build on a relatively old Linux (currently Ubuntu Pangolin)
+  and should therefore work on most modern Linux distros.
 * You may be able to install Pyzo using ``apt-get install pyzo`` (not yet).
 * You can ``apt-get install python3-pyqt4`` and then ``python3 -m pip install pyzolib pyzo``.
 

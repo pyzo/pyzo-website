@@ -111,9 +111,9 @@ html_theme_options = {  'show_rtd': False,
                         'title': '',
                         'analytics_code': 'UA-36574395-1',
                         #'gittip_user': 'almarklein',
-                        'addthis_url': 'http://www.pyzo.org',
-                        'addthis_title': 'Pyzo - Python to the people',
-                        'addthis_description': 'Scientific computing with Python',
+                        #'addthis_url': 'http://www.pyzo.org',
+                        #'addthis_title': 'Pyzo - Python to the people',
+                        #'addthis_description': 'Scientific computing with Python',
                      }
 
 # Add any paths that contain custom themes here, relative to this directory.
