@@ -36,6 +36,7 @@ Latest version
 --------------
 
 The current version is 4.6.0 (released on 06-08-2018). :ref:`Get it <quickstart>` now.
+(Fixed for Winddows, win64 version has been replaced with win32.)
 
 
 Testimonials

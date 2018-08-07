@@ -21,7 +21,7 @@ Step 1: install the Pyzo IDE
   
 Here are links to download:
     
-* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-win64.exe>`_
+* `Pyzo for Windows <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-win32.exe>`_
 * `Pyzo for OS X <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-osx64.dmg>`_
 * `Pyzo for Linux <https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-linux64.tar.gz>`_
   (or install Pyzo :ref:`the Linux way <install_linux>`.)
