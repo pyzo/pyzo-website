@@ -1,50 +1,41 @@
-.. Pyzo documentation master file, created by
-   sphinx-quickstart on Sun Jun  3 01:33:24 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+# Python to the people
 
-====================
-Python to the people
-====================
-
-
-.. slider::
-   _static/slider_pyzo2.jpg
-   _static/slider_pyzo3.jpg
-   _static/slider_pyzo4.jpg
-   _static/slider_pyzo6.png
-   _static/slider_pyzo7.png
-   _static/slider_pyzo8.png
+<div id='slider'>
+   <img src='slider_pyzo2.jpg' />
+   <img src='slider_pyzo3.jpg' />
+   <img src='slider_pyzo4.jpg' />
+   <img src='slider_pyzo6.png' />
+   <img src='slider_pyzo7.png' />
+   <img src='slider_pyzo8.png' />
+</div>
+<script src='js-image-slider.js'></script>
+<link rel="stylesheet" href="js-image-slider.css"> 
 
 
-`Pyzo <http://pyzo.org>`_ is a free and open-source computing
-environment based on Python. If you're used to e.g. Matlab, Pyzo can be considered a :ref:`free
-alternative <pythonmatlab>`.
+[Pyzo](http://pyzo.org) is a free and open-source computing
+environment based on Python. If you're used to e.g. Matlab, Pyzo can be considered a
+[free alternative](pythonmatlab).
 Essentially, Pyzo is a Python IDE, that plays well with 
-`conda <http://conda.pydata.org/miniconda.html>`_ to manage your Python packages
+[conda](http://conda.pydata.org/miniconda.html) to manage your Python packages
 (though it works with any Python interpreter), and has a website to
 help newcomers on their way.
 The IDE is aimed at interactivity and simplicity, and consists of an
 editor, a shell, and a set of tools to help the programmer in various
 ways.
 
-Get Pyzo going on your machine using the :ref:`quickstart <quickstart>`, or
-check the code on `Github <http://github.com/pyzo/pyzo>`_.
+Get Pyzo going on your machine using the [quickstart](start), or
+check the code on [Github](http://github.com/pyzo/pyzo).
 
 
-Latest version
---------------
-
-The current version is 4.6.0 (released on 06-08-2018). :ref:`Get it <quickstart>` now.
-(Fixed for Winddows, win64 version has been replaced with win32.)
+## Latest version
 
 
-Testimonials
-------------
+The current version is 4.6.0 (released on 06-08-2018). [Get it](start) now.
+(Fixed for Windows, win64 version has been replaced with win32.)
 
-These testimonials about the IDE were selected from the 
-`old discussion group <http://groups.google.com/group/iep_>`_.
-  
+
+## Testimonials
+
   It's performing beautifully, the UI is very intuitive and stylish (to
   my eyes anyway). It's about as efficient and powerful as WingIDE, but
   has significantly fewer UI surprises and crashes compared to WingIDE.
@@ -81,16 +72,3 @@ These testimonials about the IDE were selected from the
   
   This is EXACTLY the python IDE I have been waiting for, even though I
   didn't know it. Excellent job! *— Jaap*
-
-
-Site map
---------
-
-.. toctree::
-   :maxdepth: 2
-   
-   Quickstart <start>
-   About Python <about_python>
-   About Pyzo <about_pyzo>
-   Guide <guide>
-   Learn <learn>
