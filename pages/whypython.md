@@ -9,9 +9,7 @@ object-oriented programming language. It's designed to be easy to
 program and easy to read. [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum) started the design
 of Python in 1980. Over the years, Python has gained popularity in a
 broad range of fields from web development, games, usage as a scripting
-language, and of course science and engineering. Guido still plays the
-lead role in the development of Python and is sometimes referred to as
-the Benevolent Dictator For Life.
+language, and of course science and engineering.
 
 
 ## Python is open
@@ -29,7 +27,7 @@ made easy. Examples are string processing, reading/writing files,
 sockets, websites (such as this one), databases, GUI's. This is why it has been adopted
 by so many people, and for such a wide range of tasks. The large 
 [user community](http://python.org/community/) is very active and 
-known as one of the friendliest around.
+known to be friendly.
 
 It's ease of use for general tasks makes Python very suitable for
 education. For science this is also an advantage, as scientist often

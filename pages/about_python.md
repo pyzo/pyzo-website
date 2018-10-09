@@ -7,10 +7,9 @@
 Python is a widely used general-purpose, high-level programming
 language. It is easy to read and easy to learn.
 Python is increasingly used for science, data analysis,
-and engineering. The scientific community and ecosystem are growing
-fast, and we believe that Python is (going to be) the ultimate
-environment for students, scientists/engineers, and companies that build
-technological software.
+and engineering. The scientific community and ecosystem have been growing
+fast into the ultimate environment for students, scientists/engineers,
+and companies that build technological software.
 
 
 ## Learn more ...

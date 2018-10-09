@@ -2,9 +2,10 @@
 
 We regularly hear of people (and whole research groups) that 
 transition from Matlab to Python. The scientific Python ecosystem
-is maturing fast and Python is an appealing alternative, because it's 
-free, open source, and becoming ever more powerful.
-This page tries to explain the differences between these two tools.
+has been maturing fast in the past few years, and Python is an appealing
+alternative, because it's free, open source, and becoming ever more
+powerful. This page tries to explain the differences between these two
+tools.
 
 
 ## Matlab and Python and their ecosystems
@@ -42,9 +43,9 @@ available, some of which are for free.
 Because Python is open and free, it is very easy for other parties to
 design packages or other software tools that extend Python. It is
 possible to create applications using any of the mayor GUI libraries
-(e.g. [Qt](http://qt-project.org/)), use OpenGL, drive your USB port, 
+(e.g. [Qt](http://qt.io/)), use OpenGL, drive your USB port, 
 etc. Another example is [Cython](http://www.cython.org/) to enhance 
-the speed of algorithms by converting Python to C code, and cx_Freeze
+the speed of algorithms by converting Python to C code, and PyInstaller
 to create a standalone application from your source.
 
 Each package is being developed by a different (but often overlapping)
@@ -108,9 +109,8 @@ Of course, Matlab has its advantages too:
     was created to be a generic language that is easy to read, while
     Matlab started as a matrix manipulation package to which they added
     a programming language. As you become more familiar with Python,
-    you will be amazed with how well it is designed. There is only one
-    word for that: Beautiful.
-  * **Powerful**. Because it's so well designed, it's easier than other
+    you will be amazed with how well it is designed.
+  * **Powerful**. Because it's well designed, it's easier than other
     languages to transform your ideas into code. Further, Python comes
     with extensive standard libraries, and has a powerful datatypes
     such as lists, sets and dictionaries. These really help to organize
@@ -139,5 +139,4 @@ Of course, Matlab has its advantages too:
     define one in the command shell if you really want to ...
   * **Great GUI toolkits**. With Python you can create a front-end for
     your application that looks good and works well. You can chose any
-    of the major GUI toolkits like Wx or Qt. Pyzo comes with PySide (a
-    wrapper for Qt).
+    of the major GUI toolkits like Wx or Qt.

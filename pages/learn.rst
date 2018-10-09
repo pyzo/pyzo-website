@@ -88,8 +88,7 @@ Further scientific packages:
 
 Further non-science-specific packages:
   
-  * `PySide <http://qt-project.org/wiki/PySide>`_ - bindings to the Qt widget toolkit
-  * `cx_freeze <http://cx-freeze.sourceforge.net/‎>`_ - Deploy your applications
+  * `PySide2 <https://wiki.qt.io/Qt_for_Python>`_ - bindings to the Qt widget toolkit
   * `requests <http://www.python-requests.org/‎>`_ - networking
 
 

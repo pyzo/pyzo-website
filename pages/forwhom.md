@@ -51,7 +51,7 @@ change to your algorithm.
 
 Because Python is designed as a general purpose language, commercial
 applications are made with relative ease. Pyzo uses the 
-[Qt GUI toolkit](http://qt.nokia.com/), which makes it easy to build
+[Qt GUI toolkit](http://qt.io/), which makes it easy to build
 professional applications with a wide range of powerful widgets.
 Applications can be "frozen" (an executable can be made) and distributed
 to clients. All packages in Pyzo have a liberal license that allows this. 
