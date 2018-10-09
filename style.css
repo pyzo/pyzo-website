@@ -34,10 +34,10 @@ template{display:none}
 
 
 body {
-    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
-    background: #eee;
+    font-family: "Ubuntu","Helvetica Neue",Arial,sans-serif;
     color: #404040;
     font-weight: normal;
+    background: #fcfcfc;
 }
 p {
     line-height: 140%;
@@ -52,7 +52,7 @@ p {
     margin:0;
     
     background: #fcfcfc;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }
 .menu {
     box-sizing: border-box;
@@ -60,35 +60,39 @@ p {
     width: 100%;
     max-width: none;
     margin-top: 16px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
     padding: 0.5em 1em;
     background: #fcfcfc;
-    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     white-space: nowrap;
+    
+    background-image: url("bg_stripes.png");
+    background-color: rgba(38, 139, 210, 0.9);
+    color: #fff;
 }
 
-@media screen and (min-width:  1000px) {
+@media screen and (min-width:  1100px) {
     .content {
         position: absolute;
-        left: calc(62% - 350px);
-        max-width: 700px;
+        left: calc(62% - 400px);
+        max-width: 800px;
         margin: 1em 0;
     }
     .menu {
         position: fixed;
         top: 1em;
-        left: calc(62% - 350px - 10px - 250px);
+        bottom: 1em;
+        left: calc(62% - 400px - 10px - 250px);
         max-width: 250px;
         margin-top: 0;
     }
 }
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1450px) {
     .content {
-        left: calc(50% - 350px);
+        left: calc(50% - 400px);
     }
     .menu {
-        left: calc(50% - 350px - 10px - 300px);
+        left: calc(50% - 400px - 10px - 300px);
         max-width: 300px;
     }
 }
@@ -106,7 +110,8 @@ a:hover {
     border-bottom: 1px solid #ccc;
 }
 .menu a {
-    color: #404040;
+    font-size: 150%;
+    color: #fff;
     line-height: 150%;
     margin-left: 0.5em;
 }
@@ -114,7 +119,7 @@ a:hover {
     font-weight: bold;
 }
 .menu a.sub {
-    font-size: 80%;
+    font-size: 90%;
     margin-left: 1.5em;
 }
 
@@ -128,12 +133,12 @@ a.anch:hover h2::after {
 }
 hr {
     height: 1px;
-    background: #ccc;
+    background: rgba(70, 140, 210, 0.4);
     border: 0px solid #ccc;
 }
 .footer {
-    color: #777;
-    font-size: 90%;
+    color: #888;
+    font-size: 80%;
 }
 code {
     font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
@@ -153,13 +158,13 @@ code {
     padding: 0em 1em;
  }
 h1, h2, h3, h4 {
-    color: #333;
+    color: #48C;
 }
 h2 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgba(70, 140, 210, 0.4);
 }
 h2 code, h3 code, h4 code {
-    color: #333;
+    color: #369;
     padding-left: 0;
     background: none;
     border: 0px;

@@ -1,5 +1,6 @@
 """
 Script to build a website from a bunch of markdown files.
+Inspired by https://github.com/sunainapai/makesite
 Tweaked for pyzo.org
 """
 
@@ -34,18 +35,6 @@ STATIC_DIR = os.path.join(THIS_DIR, 'static')
 PAGES_DIR = os.path.join(THIS_DIR, 'pages')
 
 
-def copydir(src, dst):
-    """ Like shutil.copytree, but directories are ok to already exist.
-    """
-    for item in os.listdir(src):
-        s, d = os.path.join(src, item), os.path.join(dst, item)
-        if os.path.isdir(s):
-            if not os.path.isdir(d):
-                os.mkdir(d)
-            copydir(s, d)
-        else:
-            shutil.copy(s, d)
-
 
 def create_menu(page):
 
@@ -77,7 +66,7 @@ def create_menu(page):
                             menu[-1] = menu[-1].replace('<a ', '<a class="current" ')
         else:
             raise RuntimeError(f'Unexpected NAV entry {type(target)}')
-        
+    
     return '<br />'.join(menu)
 
 
@@ -219,6 +208,19 @@ class Page:
         return '\n'.join(htmlparts)
 
 
+def copydir(src, dst):
+    """ Like shutil.copytree, but directories are ok to already exist.
+    """
+    for item in os.listdir(src):
+        s, d = os.path.join(src, item), os.path.join(dst, item)
+        if os.path.isdir(s):
+            if not os.path.isdir(d):
+                os.mkdir(d)
+            copydir(s, d)
+        else:
+            shutil.copy(s, d)
+
+
 if __name__ == '__main__':
     main()
-    webbrowser.open(os.path.join(OUT_DIR, 'index.html'))
+    # webbrowser.open(os.path.join(OUT_DIR, 'index.html'))
