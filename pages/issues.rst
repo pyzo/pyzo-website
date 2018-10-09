@@ -15,5 +15,4 @@ Note that you can also ask questions in the
 Issue lists:
   * `Pyzo issues <https://github.com/pyzo/pyzo/issues>`_
   * For other issues, seek out the issue list via the website of the 
-    corresponding project. See Pyzo's :ref:`packages <packages>` 
-    for a list of links.
+    corresponding project.
