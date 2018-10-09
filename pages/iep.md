@@ -1,11 +1,6 @@
-.. _iepmerge:
+# Merging the Pyzo and IEP project
 
-================================
-Merging the Pyzo and IEP project
-================================
-
-
-.. image:: _static/pyzo_iep_merge.png
+<img src='pyzo_iep_merge.png'>
 
 We merged the Pyzo and IEP projects into a single project:
 

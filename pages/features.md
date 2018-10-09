@@ -1,6 +1,4 @@
---------------------------------
-List of features of the Pyzo IDE
---------------------------------
+# List of features of the Pyzo IDE
 
 General
 -------
@@ -10,7 +8,7 @@ General
   * Using an intuitive shortcut editor, a shortcut can be created for any item in the menu.
   * Various handy tools, plus the ability to make your own.
   * Choose between different Qt themes.
-  * Full Unicode support in both editor and shell.
+  * Full Unicode support in both editor and shell (this seems obvious, but was not trivial at the time :)).
 
 Shell
 -----
@@ -98,5 +96,5 @@ Standard tools
   * File browser: browse files and search inside files.
   * Logger: a logger shell that displays Pyzo's log messaged and can be used for development or 
     for changing advanced settings.
-  * <We hope to receive useful contributions from users to add as standard tools.>
+
   

@@ -48,7 +48,7 @@ distribute that as a whole.
 Why does Pyzo not come with a Python environment anymore?
 =========================================================
 
-Multiple :ref:`reasons <iepmerge>`.
+Multiple :ref:`reasons <iep>`.
 
 
 How do I install additional packages in Pyzo?

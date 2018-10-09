@@ -27,7 +27,14 @@ NAV = {
         'Speed': 'speed',
         'For whom': 'forwhom',
     },
-    'About Pyzo': 'about_pyzo',
+    'About Pyzo': {
+        '': 'about_pyzo',
+        'Mission': 'mission',
+        'Features': 'features',
+        'Themes': 'pyzo_themes',
+        'Screenshots': 'screenshots',
+        'Release notes': 'https://github.com/pyzo/pyzo/wiki/Release_notes',
+    },
     'Guide': 'guide',
     'Learn': 'learn',
 }
@@ -45,7 +52,7 @@ def create_menu(page):
     #menu.append('<span class="header">Topics</span>')
     for title, target in NAV.items():
         if isinstance(target, str):
-            if target.endswith(('http://', '/')):
+            if target.startswith(('https://', 'http://', '/')):
                 menu.append(f"<a href='target'>{title}</a>")
             else:
                 menu.append(f"<a href='{target}.html'>{title}</a>")
@@ -61,8 +68,8 @@ def create_menu(page):
                 for subtitle, subtarget in target.items():
                     if not subtitle:
                         continue
-                    if subtarget.endswith(('http://', '/')):
-                        menu.append(f"<a class='sub' href='subtarget'>{subtitle}</a>")
+                    if subtarget.startswith(('https://', 'http://', '/')):
+                        menu.append(f"<a class='sub' href='{subtarget}'>{subtitle}</a>")
                     else:
                         menu.append(f"<a class='sub' href='{subtarget}.html'>{subtitle}</a>")
                         if subtarget == page.name:
@@ -110,9 +117,8 @@ def main():
         title = TITLE if page.name == 'index' else TITLE + ' - ' + page.name
         menu = create_menu(page)
         html = html_template.format(title=title, style=css, body=page.to_html(), menu=menu)
-        filename = os.path.join(OUT_DIR, page.name + '.html')
-        print('generating', filename)
-        with open(filename, 'wb') as f:
+        print('generating', page.name + '.html')
+        with open(os.path.join(OUT_DIR, page.name + '.html'), 'wb') as f:
             f.write(html.encode())
 
 
