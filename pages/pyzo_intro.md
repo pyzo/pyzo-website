@@ -1,24 +1,16 @@
-.. _pyzo_intro:
-  
-=========================================
-A short introduction to working with Pyzo
-=========================================
+# A short introduction to working with Pyzo
 
-The Pyzo IDE consists of two main components
-============================================
+## The Pyzo IDE consists of two main components
 
-.. figure:: _static/pyzo_two_components.png
-    :align: center
-    
+<img src='pyzo_two_components.png' align='center'>
 
 You can use execute commands directly in the **shell**,
 or you can write code in the **editor** and execute that.
 
-The editor is where you write your code
-=======================================
 
-.. figure :: _static/pyzo_editor.png
-    :align: right
+## The editor is where you write your code
+
+<img src='pyzo_editor.png' align='right'>
 
 In the editor, each open file is represented as a tab. By
 right-clicking on a tab, files can be run, saved, closed, etc.
@@ -28,11 +20,9 @@ The right mouse button also enables one to make a file the
 symbol, and it enables running the file more easily.
 
 
-The shell is where your code gets executed
-==========================================
+## The shell is where your code gets executed
 
-.. figure :: _static/pyzo_shell1.png
-    :align: right
+<img src='pyzo_shell1.png' align='right'>
     
 When Pyzo starts, a default shell is created. You can add more
 shells that run simultaneously, and which may be of different
@@ -43,12 +33,9 @@ that when it is busy, Pyzo itself stays responsive, allowing you
 to keep coding and even run code in another shell.
 
 
-Running code
-============
+## Running code
 
-.. figure:: _static/pyzo_run1.png
-    :align: right
-    :scale: 75%
+<img src='pyzo_run1.png' align='right' width='250px'>
 
 Pyzo supports several ways to run source code in the editor. 
 (see also the "Run" menu):
@@ -64,11 +51,9 @@ Pyzo supports several ways to run source code in the editor.
     main file.
 
 
-Tools for your convenience
-==========================
+## Tools for your convenience
 
-.. figure:: _static/pyzo_tools1.png
-    :align: right
+<img src='pyzo_tools1.png' align='right'>
 
 Via the *Tools menu*, one can select which tools to use. The tools can
 be positioned in any way you want, and can also be un-docked.

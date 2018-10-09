@@ -1,8 +1,6 @@
-Configuring shells
-==================
+# Configuring shells
 
-.. figure:: _static/pyzo_shell2.png
-    :align: right
+<img src='pyzo_shell2.png' align='right'>
 
 Via *Shell > Edit shell configurations*, you can edit and add
 shell configurations. This allows you to for example select the
@@ -23,4 +21,3 @@ Each config has the following fields:
 * **startDir**: the initial directory.
 * **argv**: simulate command-line arguments passed to the interpreter.
 * **environ**: environment variables to pass to the interpreter.
-

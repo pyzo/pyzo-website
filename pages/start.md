@@ -61,13 +61,13 @@ For scienctific computing with Python, you need a few extra packages.
 In Pyzo's shell, type:
 
 ```
->>> install numpy
+install numpy
 ```
 (On regular Python, you may need to do `pip install ...`.)
 Hooray, you just installed a new package! Now type:
 
 ```
->>> install scipy pyqt matplotlib pandas sympy
+install scipy pyqt matplotlib pandas sympy
 ```
 
 Now you have the most important scientific Python packages (a.k.a. the scipy-stack).

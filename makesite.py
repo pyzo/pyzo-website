@@ -35,7 +35,14 @@ NAV = {
         'Screenshots': 'screenshots',
         'Release notes': 'https://github.com/pyzo/pyzo/wiki/Release_notes',
     },
-    'Guide': 'guide',
+    'Guide': {
+        '': 'guide',
+        'Short introduction': 'pyzo_intro',
+        'Installing additional packages': 'install_packages',
+        'Configuring shells': 'shellconfig',
+        'Interactive vs script mode': 'interactive_vs_script',
+        'FAQ': 'faq',
+    },
     'Learn': 'learn',
 }
 
