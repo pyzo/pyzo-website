@@ -1,6 +1,4 @@
-=======================
-Run fast code in Python
-=======================
+# Run fast code in Python
 
 Speed is a controversial issue. Is C# faster than Java? Is C faster
 than C++? Is Python faster than Matlab? These questions always lead to
@@ -25,13 +23,13 @@ can get.
 Fortunately, there are several solutions that allow you to write
 code that will run fast in Python:
 
-  * `Cython <http://cython.org/>`_ is allows you to write normal Python
+  * [Cython](http://cython.org/) is allows you to write normal Python
     code and then add type annotations. This code is first translated
     to C code, which is in turn compiled to machine code. In effect,
     if you do it right, your code will become as fast as C. The downside
     is that you need a C compiler on your machine.
 
-  * `Numba <http://numba.pydata.org/>`_ allows compilation (via LLVM)
+  * [Numba](http://numba.pydata.org/) allows compilation (via LLVM)
     of array-oriented Python code with only adding a single line of
     code. To use Numba in Pyzo,  do ``conda install numba``.
 

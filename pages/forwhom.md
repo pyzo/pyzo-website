@@ -1,8 +1,4 @@
-.. _forwhom:
-
-============================
-Who can benefit from Python?
-============================
+# Who can benefit from Python?
 
 The goal of Pyzo is to make Python easier accessible for a large
 audience. We distinguish three core user groups.
@@ -13,12 +9,9 @@ safe money. And (tech) startups do not have to invest in expensive
 software.
 
 
-Students and schools
---------------------
+## Students and schools
 
-.. image:: _static/pyzo_noah02.jpg
-    :scale: 50%
-    :align: right    
+<img src='pyzo_noah02.jpg' width='200px' align='right'>
 
 The ease of use of Python as a programming language makes it very
 suitable for children and people who are learning programming for the
@@ -32,12 +25,9 @@ be able to download and install Pyzo, and be able to start writing code
 right away.
 
 
-Scientists and engineers
-------------------------
+## Scientists and engineers
 
-.. image:: _static/einstein_python.jpg
-    :scale: 50%
-    :align: right    
+<img src='einstein_python.jpg' width='200px' align='right'>
 
 Openness in science is key. Scientists should be able to share
 algorithms, and to verify the results of other scientist without having
@@ -55,16 +45,13 @@ and large datasets do not have to be reloaded every time you make a
 change to your algorithm.
 
 
-Companies
----------
+## Companies
 
-.. image:: _static/handshake.jpg
-    :scale: 50%
-    :align: right    
+<img src='handshake.jpg' width='200px' align='right'>
 
 Because Python is designed as a general purpose language, commercial
 applications are made with relative ease. Pyzo uses the 
-`Qt GUI toolkit <http://qt.nokia.com/>`_, which makes it easy to build
+[Qt GUI toolkit](http://qt.nokia.com/), which makes it easy to build
 professional applications with a wide range of powerful widgets.
 Applications can be "frozen" (an executable can be made) and distributed
 to clients. All packages in Pyzo have a liberal license that allows this. 

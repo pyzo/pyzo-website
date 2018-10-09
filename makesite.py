@@ -23,6 +23,9 @@ NAV = {
         '': 'about_python',
         'Why Python': 'whypython',
         'Python 3': 'python3',
+        'Python vs Matlab': 'python_vs_matlab',
+        'Speed': 'speed',
+        'For whom': 'forwhom',
     },
     'About Pyzo': 'about_pyzo',
     'Guide': 'guide',
@@ -52,7 +55,7 @@ def create_menu(page):
                              for level, title in page.headers if level == 2]
         elif isinstance(target, dict):
             menu.append(f"<a href='{target['']}.html'>{title}</a>")
-            if target == page.name:
+            if target[''] == page.name:
                 menu[-1] = menu[-1].replace('<a ', '<a class="current" ')
             if any(page.name == subtarget for subtarget in target.values()):
                 for subtitle, subtarget in target.items():
@@ -63,7 +66,7 @@ def create_menu(page):
                     else:
                         menu.append(f"<a class='sub' href='{subtarget}.html'>{subtitle}</a>")
                         if subtarget == page.name:
-                            menu[-1] = menu[-1].replace('<a ', '<a class="current" ')
+                            menu[-1] = menu[-1].replace("class='", "class='current ")
         else:
             raise RuntimeError(f'Unexpected NAV entry {type(target)}')
     

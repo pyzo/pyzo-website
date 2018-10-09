@@ -1,15 +1,8 @@
-.. _python3:
+# Python 3 is the future
 
-======================
-Python 3 is the future
-======================
+<img src='Python3-powered_hello-world.png' width='40%' align='center'>
 
-.. image:: _static/Python3-powered_hello-world.png
-    :scale: 40%
-    :align: center
-
-
-Pyzo is based on Python 3 (aka Python 3000, aka Python 3k), which is the new version of Python
+Pyzo is based on Python 3, which is the new version of Python
 since december 2008. It took the scientific community a while, but since
 2013 all core scientific packages work in Python 3.
 Python 3 `is the future <https://wiki.python.org/moin/Python2orPython3>`_

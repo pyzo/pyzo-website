@@ -1,8 +1,4 @@
-.. _pythonmatlab:
-  
-================
-Python vs Matlab
-================
+# Python vs Matlab
 
 We regularly hear of people (and whole research groups) that 
 transition from Matlab to Python. The scientific Python ecosystem
@@ -11,18 +7,17 @@ free, open source, and becoming ever more powerful.
 This page tries to explain the differences between these two tools.
 
 
-Matlab and Python and their ecosystems
---------------------------------------
+## Matlab and Python and their ecosystems
 
 Python, by definition, is a
 programming language. The most common implementation is that in C (also
-known as `CPython <http://en.wikipedia.org/wiki/CPython>`_) 
+known as [CPython](http://en.wikipedia.org/wiki/CPython))
 and is what is mostly refered to as "Python". Apart from the programming
 language and interpreter, Python also consists of an extensive standard
 library. This library is aimed at programming in general and contains
 modules for os specific stuff, threading, networking, databases, etc.
 
-`Matlab <http://en.wikipedia.org/wiki/MATLAB>`_ 
+[Matlab](http://en.wikipedia.org/wiki/MATLAB) 
 is a commercial numerical computing environment and programming language.
 The concept of Matlab refers to the whole package, including the IDE.
 The standard library does not contain as much generic programming
@@ -30,26 +25,25 @@ functionality, but does include matrix algebra and an extensive library
 for data processing and plotting. For extra functionality the Mathworks
 provides toolkits (but these cose you extra).
 
-.. image:: _static/pythonvsmatlab.png
-    :align: center
+
+<img src='pythonvsmatlab.png' align='center'>
 
 *Diagram illustrating the differences between Python and
 Matlab in terms of their ecosystem.*
-    
 
 To do scientific computing in Python, you need additional packages (e.g.
 Numpy, Scipy, Matplotlib). Additionally, you'll need an IDE. Many
 pythoneers come from a Linux environment and use a Python shell and an
 editor (like vi or Emacs), but people coming from Matlab prefer a
-feature-rich IDE (us included). There are a handful of `IDE's
-<http://wiki.python.org/moin/IntegratedDevelopmentEnvironments>`_
+feature-rich IDE (us included). There are a handful of
+[IDE's](http://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
 available, some of which are for free.
 
 Because Python is open and free, it is very easy for other parties to
 design packages or other software tools that extend Python. It is
 possible to create applications using any of the mayor GUI libraries
-(e.g. `Qt <http://qt-project.org/>`_), use OpenGL, drive your USB port, 
-etc. Another example is `Cython <http://www.cython.org/>`_ to enhance 
+(e.g. [Qt](http://qt-project.org/)), use OpenGL, drive your USB port, 
+etc. Another example is [Cython](http://www.cython.org/) to enhance 
 the speed of algorithms by converting Python to C code, and cx_Freeze
 to create a standalone application from your source.
 
@@ -61,8 +55,7 @@ package users contribute to the development by reporting issues, helping
 with documentation, and making small improvements to the code.
 
 
-The problem with Matlab
------------------------
+## The problem with Matlab
 
 We do not intend to make Matlab look bad. We used to love Matlab
 ourselves! However, we think that Matlab has a few fundamental
@@ -94,8 +87,7 @@ as a matrix manipulation package:
     difficult to distinguish it from a function call.
         
 
-Advantages of Matlab 
---------------------
+## Advantages of Matlab 
 
 Of course, Matlab has its advantages too:
 
@@ -108,8 +100,7 @@ Of course, Matlab has its advantages too:
     (although few companies have the money to buy a license).
 
 
-Advantages of Python
---------------------
+## Advantages of Python
 
   * **Free**. As in speech and as in beer. (It won't cost you a thing, and
     you are allowed to view and modify the source.)

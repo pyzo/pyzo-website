@@ -14,7 +14,7 @@
 
 [Pyzo](http://pyzo.org) is a free and open-source computing
 environment based on Python. If you're used to e.g. Matlab, Pyzo can be considered a
-[free alternative](pythonmatlab).
+[free alternative](python_vs_matlab).
 Essentially, Pyzo is a Python IDE, that plays well with 
 [conda](http://conda.pydata.org/miniconda.html) to manage your Python packages
 (though it works with any Python interpreter), and has a website to
