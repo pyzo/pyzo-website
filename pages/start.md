@@ -12,7 +12,7 @@ you write your code) and a Python environment (in which you run your code).
 <img src='download.png' width='100px' align='right'>
 
   
-Here are links to download:
+Download the Pyzo installer for your system:
     
 * [Pyzo for Windows](https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-win32.exe)
 * [Pyzo for OS X](https://github.com/pyzo/pyzo/releases/download/v4.6.0/pyzo-4.6.0-osx64.dmg)
@@ -26,33 +26,36 @@ Here are links to download:
 <img src='download.png' width='100px' align='right'>
 
 To run Python code, you need a Python interpreter.
-Pyzo works with most Python interpreters.
-We recommend installing [miniconda](https://conda.io/miniconda.html)
-or [anaconda](https://www.anaconda.com/download/) if you intend to do science,
-because these make it very easy to install additional (scientific) packages.
-Make sure to use Python 3, and not Python 2.
+Pyzo works with most Python interpreters. If you're not sure what to
+use, don't worry, you can install multiple environments side-by-side, and
+use each one from Pyzo. Just make sure to use Python&nbsp;3 (not&nbsp;Python&nbsp;2).
 
-Here are direct links to download:
-    
-* [Miniconda for Windows (64 bit)](https://repo.continuum.io/miniconda/Miniconda3-latest-Windows-x86_64.exe) (grapical installer)
-* [Miniconda for Linux (64 bit)](https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh)
-* [Anaconda for OS X (64 bit)](https://www.anaconda.com/download/)
+We recommend starting with either of these:
+
+* The [regular Python](https://www.python.org/). Use `pip` to install additional packages.
+* The [Anaconda](https://www.anaconda.com/download/) distribution comes with a lot of scientific
+  packages. 
+* The [Miniconda](https://conda.io/miniconda.html) distribution is a lighter version that starts
+  with fewer packages. Use `conda` or `pip` to install additional packages.
 
 We recommend installing in the default location, or at least a location
 that can be written to without admin privileges, so that addtional
 packages can be installed.
 
 
-## Step 2b: Tell Pyzo what environment to use
+## Step 3: Configure Pyzo shell
 
-You can usually skip this step, because the environment is generally
-automatically detected. If this is not the case (e.g. it was not
-installed in the default location), just open the shell configuration
-dialog (menu > shell > edit shell configuration), and set the value of
-"exe" to the path of the Python executable.
+In Pyzo you can configure one or more shells to target your Python
+environment(s). Pyzo is usually pretty good at detecting any installed
+Python environments, and will try to guide you to selecting a suitable
+one.
+
+You may need to open the shell configuration dialog (e.g. via menu >
+shell > edit shell configuration), and set the value of "exe" to the
+path of the Python executable.
 
 
-## Step 3: Install Scientific packages
+## Step 4: Install Scientific packages
 
 For scienctific computing with Python, you need a few extra packages.
 In Pyzo's shell, type:
@@ -60,7 +63,7 @@ In Pyzo's shell, type:
 ```
 >>> install numpy
 ```
-
+(On regular Python, you may need to do `pip install ...`.)
 Hooray, you just installed a new package! Now type:
 
 ```
@@ -69,7 +72,7 @@ Hooray, you just installed a new package! Now type:
 
 Now you have the most important scientific Python packages (a.k.a. the scipy-stack).
 If you need a package that is not yet installed, and the install command does not
-work, see :ref:`this guide <install_packages>`.
+work, see [this guide](install_packages).
 
 
 ## Further steps
