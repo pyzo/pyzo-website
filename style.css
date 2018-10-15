@@ -44,7 +44,7 @@ p {
 }
 .content {
     box-sizing: border-box;
-    padding: 1em 2em;
+    padding: 1em 1em;
     width: 100%;
     
     position: static;
@@ -59,7 +59,7 @@ p {
     position: static;
     width: 100%;
     max-width: none;
-    margin-top: 16px;
+    
     padding: 0.5em 1em;
     background: #fcfcfc;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
@@ -76,6 +76,7 @@ p {
         position: absolute;
         left: calc(62% - 400px);
         max-width: 800px;
+        padding: 1em 1.5em;
         margin: 1em 0;
     }
     .menu {
