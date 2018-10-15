@@ -274,4 +274,4 @@ def copydir(src, dst):
 
 if __name__ == "__main__":
     main()
-    webbrowser.open(os.path.join(OUT_DIR, "index.html"))
+    # webbrowser.open(os.path.join(OUT_DIR, "index.html"))
