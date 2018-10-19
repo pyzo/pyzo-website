@@ -12,13 +12,11 @@
 <link rel="stylesheet" href="js-image-slider.css"> 
 
 
-[Pyzo](http://pyzo.org) is a free and open-source computing
-environment based on Python. If you're used to e.g. Matlab, Pyzo can be considered a
+[Pyzo](http://pyzo.org) is a free and open-source computing environment based
+on Python. If you're used to e.g. Matlab, Pyzo can be considered a
 [free alternative](python_vs_matlab).
-Essentially, Pyzo is a Python IDE, that plays well with 
-[conda](http://conda.pydata.org/miniconda.html) to manage your Python packages
-(though it works with any Python interpreter), and has a website to
-help newcomers on their way.
+Pyzo is a Python IDE that works with any [Python](https://python.org) interpreter
+installed on your system, including [Conda](https://conda.pydata.org/miniconda.html) environments.
 The IDE is aimed at interactivity and simplicity, and consists of an
 editor, a shell, and a set of tools to help the programmer in various
 ways.
@@ -29,9 +27,7 @@ check the code on [Github](http://github.com/pyzo/pyzo).
 
 ## Latest version
 
-
-The current version is 4.6.0 (released on 06-08-2018). [Get it](start) now.
-(Fixed for Windows, win64 version has been replaced with win32.)
+The current version is 4.6.1 (released on 19-10-2018). [Get it](start) now.
 
 
 ## Testimonials

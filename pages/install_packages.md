@@ -15,7 +15,7 @@ You can only use Conda in a Miniconda or Anaconda environment.
 
 ## Command for convenience
 
-Pyzo provides three sommands as a convenience that use the conda commands below:
+Pyzo provides three sommands as a convenience that use conda if available, and otherwise pip:
 ``install xx``, ``update xx``, ``remove xx``.
 
 

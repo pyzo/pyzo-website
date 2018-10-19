@@ -4,7 +4,7 @@
     
 
 To get started with Pyzo, you need to install the Pyzo IDE (in which
-you write your code) and a Python environment (in which you run your code).
+you *write* your code) and a Python environment (in which you *run* your code).
 
 
 ## Step 1: install the Pyzo IDE
@@ -32,11 +32,11 @@ use each one from Pyzo. Just make sure to use Python&nbsp;3 (not&nbsp;Python&nbs
 
 We recommend starting with either of these:
 
-* The [regular Python](https://www.python.org/). Use `pip` to install additional packages.
+* The [regular Python](https://www.python.org/). Additional packages can be installed using `pip`.
 * The [Anaconda](https://www.anaconda.com/download/) distribution comes with a lot of scientific
   packages. 
 * The [Miniconda](https://conda.io/miniconda.html) distribution is a lighter version that starts
-  with fewer packages. Use `conda` or `pip` to install additional packages.
+  with fewer packages. Additional packages can be installed using `conda` or `pip`.
 
 We recommend installing in the default location, or at least a location
 that can be written to without admin privileges, so that addtional
@@ -50,29 +50,20 @@ environment(s). Pyzo is usually pretty good at detecting any installed
 Python environments, and will try to guide you to selecting a suitable
 one.
 
-You may need to open the shell configuration dialog (e.g. via menu >
-shell > edit shell configuration), and set the value of "exe" to the
-path of the Python executable.
 
+## Step 4: Install additional packages
 
-## Step 4: Install Scientific packages
-
-For scienctific computing with Python, you need a few extra packages.
-In Pyzo's shell, type:
+Depending on you needs, you might need a few extra packages. In Pyzo's shell, type:
 
 ```
-install numpy
+install requests
 ```
-(On regular Python, you may need to do `pip install ...`.)
-Hooray, you just installed a new package! Now type:
+Hooray, you just installed a new package! For details see [this guide](install_packages).
+For scienctific computing, you may want to install this set of the most important scientific packages (a.k.a. the scipy-stack):
 
 ```
-install scipy pyqt matplotlib pandas sympy
+install numpy scipy pandas matplotlib sympy pyqt
 ```
-
-Now you have the most important scientific Python packages (a.k.a. the scipy-stack).
-If you need a package that is not yet installed, and the install command does not
-work, see [this guide](install_packages).
 
 
 ## Further steps
@@ -85,4 +76,4 @@ You should now be set up to start coding! You can also learn more about
 
 Pyzo and the Python environment can safely be updated/reinstalled independently from each-other.
 Similarly, you can install multiple Python environments and use/manage them all via Pyzo.
-Individual packages within a Python environment can be updated via ``update xx``.
+Individual packages within a Python environment can be updated via ``update package_name``.
