@@ -1,7 +1,7 @@
 # Getting started with Pyzo
 
 <img src='pyzo_conda.png' width='75%' align='center'>
-    
+
 
 To get started with Pyzo, you need to install the Pyzo IDE (in which
 you *write* your code) and a Python environment (in which you *run* your code).
@@ -11,14 +11,13 @@ you *write* your code) and a Python environment (in which you *run* your code).
 
 <img src='download.png' width='100px' align='right'>
 
-  
+
 Download the Pyzo installer for your system:
-    
-* [Pyzo for Windows](https://github.com/pyzo/pyzo/releases/download/v4.6.1/pyzo-4.6.2-win32.exe)
-* [Pyzo for OS X](https://github.com/pyzo/pyzo/releases/download/v4.6.1/pyzo-4.6.1-osx64.dmg)
-* [Pyzo for Linux](https://github.com/pyzo/pyzo/releases/download/v4.6.1/pyzo-4.6.1-linux64.tar.gz)
-  (or install Pyzo [the Linux way](install_linux).)
-* For more downloads/information see the [installation page](install)
+
+* [Pyzo for Windows](https://github.com/pyzo/pyzo/releases/download/v4.7.0/pyzo-4.7.0-win64.exe) (Windows 8 or higher, 64bit)
+* [Pyzo for OS X](https://github.com/pyzo/pyzo/releases/download/v4.7.0/pyzo-4.7.0-osx64.dmg) (OS X 10.11 El Capitan or higher)
+* [Pyzo for Linux](https://github.com/pyzo/pyzo/releases/download/v4.7.0/pyzo-4.7.0-linux64.tar.gz) (Ubuntu 16.04 or equivalent/higher, or install Pyzo [the Linux way](install_linux).)
+* For more downloads/information see [all releases](https://github.com/pyzo/pyzo/releases) or the [installation page](install)
 
 
 ## Step 2: install Python environment
@@ -34,7 +33,7 @@ We recommend starting with either of these:
 
 * The [regular Python](https://www.python.org/). Additional packages can be installed using `pip`.
 * The [Anaconda](https://www.anaconda.com/download/) distribution comes with a lot of scientific
-  packages. 
+  packages.
 * The [Miniconda](https://conda.io/miniconda.html) distribution is a lighter version that starts
   with fewer packages. Additional packages can be installed using `conda` or `pip`.
 
