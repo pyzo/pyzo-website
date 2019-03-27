@@ -14,9 +14,9 @@ you *write* your code) and a Python environment (in which you *run* your code).
 
 Download the Pyzo installer for your system:
 
-* [Pyzo for Windows](https://github.com/pyzo/pyzo/releases/download/v4.7.0/pyzo-4.7.0-win64.exe) (Windows 8 or higher, 64bit)
-* [Pyzo for OS X](https://github.com/pyzo/pyzo/releases/download/v4.7.0/pyzo-4.7.0-osx64.dmg) (OS X 10.11 El Capitan or higher)
-* [Pyzo for Linux](https://github.com/pyzo/pyzo/releases/download/v4.7.0/pyzo-4.7.0-linux64.tar.gz) (Ubuntu 16.04 or equivalent/higher, or install Pyzo [the Linux way](install_linux).)
+* [Pyzo for Windows 10](https://github.com/pyzo/pyzo/releases/download/v4.7.3/pyzo-4.7.3-win64-windows10.exe) or [Pyzo for Windows 7 and higher](https://github.com/pyzo/pyzo/releases/download/v4.7.3/pyzo-4.7.3-win64.exe) (both 64bit)
+* [Pyzo for OS X](https://github.com/pyzo/pyzo/releases/download/v4.7.3/pyzo-4.7.3-osx64.dmg) (OS X 10.11 El Capitan or higher)
+* [Pyzo for Linux](https://github.com/pyzo/pyzo/releases/download/v4.7.3/pyzo-4.7.3-linux64.tar.gz) (Ubuntu 16.04 or equivalent/higher, or install Pyzo [the Linux way](install_linux).)
 * For more downloads/information see [all releases](https://github.com/pyzo/pyzo/releases) or the [installation page](install)
 
 
