@@ -46,11 +46,11 @@ p {
     box-sizing: border-box;
     padding: 1em 1em;
     width: 100%;
-    
+
     position: static;
     max-width: none;
     margin:0;
-    
+
     background: #fcfcfc;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }
@@ -59,13 +59,13 @@ p {
     position: static;
     width: 100%;
     max-width: none;
-    
+
     padding: 0.5em 1em;
     background: #fcfcfc;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     white-space: nowrap;
-    
+
     background-image: url("bg_stripes.png");
     background-color: rgba(38, 139, 210, 0.9);
     color: #fff;
@@ -123,7 +123,26 @@ a:hover {
     font-size: 90%;
     margin-left: 1.5em;
 }
-
+.menu .ad {
+    box-sizing: border-box;
+    max-width: 270px;
+    margin-top: 1.5em;
+    white-space: normal;
+    background: rgba(90, 90, 90, 0.3);
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 0.5em;
+    text-align: center;
+}
+.menu .ad a {
+    font-size: 70%;
+    line-height: 100%;
+    margin: 0;
+}
+.menu .ad a.a-ad {
+    font-size: 95%;
+    text-decoration: none;
+}
 a.anch:hover {
     text-decoration: none;
 }
