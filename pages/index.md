@@ -27,8 +27,9 @@ check the code on [Github](http://github.com/pyzo/pyzo).
 
 ## Latest version
 
-The current version is 4.8.0 (released on 27-08-2019). [Get it](start) now.
-(For Linux, version 4.8.1 is available, fixing a specific bug on Linux.)
+The current version is 4.9.0 (released on 16-09-2019). [Get it](start) now.
+
+(Amongst other things, this release fixes the shell warmup issue on Windows that was present in 4.8.0.)
 
 
 ## Testimonials
