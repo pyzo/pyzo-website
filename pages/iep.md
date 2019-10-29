@@ -27,7 +27,7 @@ been based on conda for a while. Nevertheless, the maintenance of Pyzo
 proved a significant burden, and we found that we were not releasing
 as often as we wanted.
 
-Furthermore, there were several cases of problems causes by the fact
+Furthermore, there were several cases of problems caused by the fact
 that the IDE worked from the same environment in which the computing
 was done, especially for updating packages.
 

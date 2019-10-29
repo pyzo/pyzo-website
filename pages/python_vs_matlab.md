@@ -81,7 +81,7 @@ shortcomings. Most of these arise from its commercial nature:
 Furtheremore, there are some other issues that stem from Matlabs origins
 as a matrix manipulation package:
 
-  * The semicolon. It can be usefull to show the result when you type
+  * The semicolon. It can be useful to show the result when you type
     code in the console, but in scripts it does not make any sense that
     one must end a line with a semicolon in order to suppress output.
   * Indexing is done with braces rather than brackets, making it 
