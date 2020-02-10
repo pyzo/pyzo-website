@@ -38,7 +38,7 @@ and parallel processing are easily made available via Python.
 The readability of Python, and its powerful approach for general tasks
 make that scientists and engineers can focus on their algorithms. They
 do not have to write complex code to do simple things; the algorithms
-are often already complex enough. It's powerful introspection makes
+are often already complex enough. Its powerful introspection makes
 debugging complex algorithms easier. Because Python is a dynamic
 language, algorithms can be developed much quicker (rapid prototyping),
 and large datasets do not have to be reloaded every time you make a

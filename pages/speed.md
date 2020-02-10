@@ -33,7 +33,7 @@ code that will run fast in Python:
     of array-oriented Python code with only adding a single line of
     code. To use Numba in Pyzo,  do ``conda install numba``.
 
-  * Ctypes is a build-in library that allows one to call function in a
+  * Ctypes is a built-in library that allows one to call function in a
     dynamic library. This can be a very effective means to communicate
     with existing code. No compilation required.
 
