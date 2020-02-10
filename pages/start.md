@@ -7,19 +7,30 @@ To get started with Pyzo, you need to install the Pyzo IDE (in which
 you *write* your code) and a Python environment (in which you *run* your code).
 
 
+<br />
 ## Step 1: install the Pyzo IDE
 
 <img src='download.png' width='100px' align='right'>
 
+Most users can select one of these:
 
-Download the Pyzo installer for your system:
+* Windows:
+  [Pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-win64.exe)
+  (64bit)
+* macOS:
+  [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-macos.dmg)
+  (macOS 10.13 High Sierra or higher)
+* Linux:
+  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-linux64.tar.gz)
+  (build on Debian Stretch, 64bit).
 
-* [Pyzo for Windows 10](https://github.com/pyzo/pyzo/releases/download/v4.9.0/pyzo-4.9.0-win64-windows10.exe) or [Pyzo for Windows 7 and higher](https://github.com/pyzo/pyzo/releases/download/v4.9.0/pyzo-4.9.0-win64-windows7.exe) (both 64bit)
-* [Pyzo for OS X](https://github.com/pyzo/pyzo/releases/download/v4.9.0/pyzo-4.9.0-osx64.dmg) (OS X 10.11 El Capitan or higher)
-* [Pyzo for Linux](https://github.com/pyzo/pyzo/releases/download/v4.9.0/pyzo-4.9.0-linux64.tar.gz) (Ubuntu 16.04 or equivalent/higher, or install Pyzo [the Linux way](install_linux).)
-* For more downloads/information see [all releases](https://github.com/pyzo/pyzo/releases) or the [installation page](install)
+Otherwise, see [all releases](https://github.com/pyzo/pyzo/releases)
+for more downloads (e.g. 32/64 bit Windows zipfiles, and older versions).
+Linux users can also [install Pyzo using Linux system packages](install_linux).
+See the [installation page](install) for more information.
 
 
+<br />
 ## Step 2: install Python environment
 
 <img src='download.png' width='100px' align='right'>
@@ -42,6 +53,7 @@ that can be written to without admin privileges, so that addtional
 packages can be installed.
 
 
+<br />
 ## Step 3: Configure Pyzo shell
 
 In Pyzo you can configure one or more shells to target your Python
@@ -50,6 +62,7 @@ Python environments, and will try to guide you to selecting a suitable
 one.
 
 
+<br />
 ## Step 4: Install additional packages
 
 Depending on you needs, you might need a few extra packages. In Pyzo's shell, type:
@@ -65,12 +78,14 @@ install numpy scipy pandas matplotlib sympy pyqt
 ```
 
 
+<br />
 ## Further steps
 
 You should now be set up to start coding! You can also learn more about
 [using the IDE](guide) and about [using Python](learn).
 
 
+<br />
 ## Updating
 
 Pyzo and the Python environment can safely be updated/reinstalled independently from each-other.

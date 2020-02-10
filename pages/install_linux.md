@@ -5,9 +5,12 @@
 Although we provide binaries to run Pyzo on Linux, these sometimes suffer from
 problems (most notably ugly/nonnative fonts) on certain distributions.
 
-If this is the case for you, you can install Pyzo the "Linux-way". Pyzo runs
-on Python 3 and only further needs PyQt4/PyQt5. Therefore, it's enough to do:
-    
+If this is the case for you, you can install Pyzo via the system
+packages. Pyzo runs on Python 3.5 and up, and needs PyQt5/PySide2. It
+has no further dependencies, so there is little risk of version
+conflicts for packages that your system relies on. This should do the
+trick:
+
 ```
 $ sudo apt-get install python3-pip python3-pyqt5
 $ sudo python3 -m pip install pyzo --upgrade

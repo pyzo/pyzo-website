@@ -16,21 +16,21 @@ your platform. A list of
 ## Linux
 
 * To install Pyzo on Linux, download and extract the archive
-  corresponding to your architecture. 
+  corresponding to your architecture.
 * In case you want to place a link on your desktop for convenience,
   icons are in the *source/pyzo/resources/appicons* folder.
-* The binaries for Linux are build on a relatively old Linux (currently Ubuntu Pangolin)
+* The binaries for Linux are build on a relatively old Linux
   and should therefore work on most modern Linux distros.
-* You may be able to install Pyzo using ``apt-get install pyzo`` (not yet).
-* You can ``apt-get install python3-pyqt5`` and then ``python3 -m pip install pyzolib pyzo``.
+* You can also ``apt-get install python3-pyqt5`` and then ``python3 -m pip install pyzo``.
+  See [install Pyzo using Linux system packages](install_linux).
 
 
 ## OS X
 
-* To install Pyzo on Mac, mount the disk image and copy the pyzo
-  directory to to your user directory. 
-* The binaries are build on OSX 10.6.2 and should work on Snow Leopard
-  and above.
+* To install Pyzo on Mac, mount the disk image and copy the Pyzo
+  directory to to your user directory.
+* The binaries are build on a relatively old version of macOS. If it does not
+  work, consider upgrading your OS or check an [older Pyzo release](https://github.com/pyzo/pyzo/releases)
 
 
 ## Uninstalling
