@@ -28,6 +28,7 @@ check the code on [Github](http://github.com/pyzo/pyzo).
 ## Latest version
 
 The current version is 4.10.2 (released on 10-02-2020). [Get it now!](start)
+(A fix for the Linux build was made available on 13-02-2020.)
 
 
 ## Testimonials

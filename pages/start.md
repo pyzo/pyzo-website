@@ -21,8 +21,8 @@ Most users can select one of these:
   [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-macos.dmg)
   (macOS 10.13 High Sierra or higher)
 * Linux:
-  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2-linux64.tar.gz)
-  (build on Debian Stretch, 64bit).
+  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.10.2/pyzo-4.10.2.2-linux64.tar.gz)
+  (build on Ubuntu 18.04, 64bit).
 
 Otherwise, see [all releases](https://github.com/pyzo/pyzo/releases)
 for more downloads (e.g. 32/64 bit Windows zipfiles, and older versions).
