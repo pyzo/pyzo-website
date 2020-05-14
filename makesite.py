@@ -135,6 +135,11 @@ def create_assets():
         print("generating", page.name + ".html")
         assets[page.name + ".html"] = html.encode()
 
+    # Fix backslashes on Windows
+    for key in list(assets.keys()):
+        if "\\" in key:
+            assets[key.replace("\\", "/")] = assets.pop(key)
+
     return assets
 
 
