@@ -15,13 +15,13 @@ you *write* your code) and a Python environment (in which you *run* your code).
 Most users can select one of these:
 
 * Windows:
-  [Pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.11.0/pyzo-4.11.0-win64.exe)
+  [Pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.11.2/pyzo-4.11.2-win64.exe)
   (64bit)
 * macOS:
-  [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.11.0/pyzo-4.11.0-macos.dmg)
+  [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.11.2/pyzo-4.11.2-macos.dmg)
   (macOS 10.13 High Sierra or higher)
 * Linux:
-  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.11.0/pyzo-4.11.0-linux64.tar.gz)
+  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.11.2/pyzo-4.11.2-linux64.tar.gz)
   (build on Ubuntu 18.04, 64bit).
 
 Otherwise, see [all releases](https://github.com/pyzo/pyzo/releases)
