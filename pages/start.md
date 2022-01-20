@@ -15,16 +15,14 @@ you *write* your code) and a Python environment (in which you *run* your code).
 Most users can select one of these:
 
 * Windows:
-  [Pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.11.7/pyzo-4.11.7-win64.exe)
+  [Pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.12.0/pyzo-4.12.0-win64.exe)
   (64bit)
 * MacOS:
-  [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.11.7/pyzo-4.11.7-macos.dmg)
-  (macOS 10.13 High Sierra or higher)
+  [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.12.0/pyzo-4.12.0-macos_x86_64.dmg)
+  (For MacOS 10.13 High Sierra or higher. If you get a warning about Apple being unable to check the file, you must right-click-open the file.)
 * Linux:
-  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.11.4/pyzo-4.11.4-linux64.tar.gz)
+  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.12.0/pyzo-4.12.0-linux_x86_64.tar.gz)
   (build on Ubuntu 18.04, 64bit).
-
-*Note: some users reports that the MacOS binary is broken. While we look into this, you may want to try an earlier version or run Pyzo from source.*
 
 Otherwise, see [all releases](https://github.com/pyzo/pyzo/releases)
 for more downloads (e.g. 32/64 bit Windows zipfiles, and older versions).
