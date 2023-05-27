@@ -52,7 +52,7 @@ PAGES_DIR = os.path.join(THIS_DIR, "pages")
 
 
 def create_menu(page):
-    """ Create the meny for the given page.
+    """ Create the menu for the given page.
     """
     menu = []
     # menu.append('<span class="header">Topics</span>')
