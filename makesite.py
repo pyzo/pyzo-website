@@ -12,6 +12,7 @@ import markdown
 import pygments
 from pygments.formatters import HtmlFormatter
 from pygments.lexers import get_lexer_by_name
+from datetime import datetime
 
 
 TITLE = "Pyzo"
@@ -52,7 +53,7 @@ PAGES_DIR = os.path.join(THIS_DIR, "pages")
 
 
 def create_menu(page):
-    """ Create the meny for the given page.
+    """ Create the menu for the given page.
     """
     menu = []
     # menu.append('<span class="header">Topics</span>')
@@ -125,12 +126,13 @@ def create_assets():
     )
 
     # Generate pages
+    year = datetime.now().year
     for page in pages.values():
         page.prepare(pages.keys())
         title = TITLE if page.name == "index" else TITLE + " - " + page.name
         menu = create_menu(page)
         html = html_template.format(
-            title=title, style=css, body=page.to_html(), menu=menu
+            title=title, style=css, body=page.to_html(), menu=menu, year=year
         )
         print("generating", page.name + ".html")
         assets[page.name + ".html"] = html.encode()
