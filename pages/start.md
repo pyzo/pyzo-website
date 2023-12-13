@@ -15,19 +15,20 @@ you *write* your code) and a Python environment (in which you *run* your code).
 Most users can select one of these:
 
 * Windows:
-  [Pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.14.3/pyzo-4.14.3-win64.exe)
-  (64bit). If your AntiVirus complaints, [read this](https://github.com/pyzo/pyzo/issues/800).
-* MacOS:
-  [Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.14.3/pyzo-4.14.3-macos_x86_64.dmg).
-  If you get a warning about Apple being unable to check the file, you must right-click-open the file.
-* Linux:
-  [Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.14.3/pyzo-4.14.3-linux_x86_64.tar.gz)
-  (build on Ubuntu 18.04, 64bit).
+    * [Download pyzo installer](https://github.com/pyzo/pyzo/releases/download/v4.14.3/pyzo-4.14.3-win64.exe)
+    * If your AntiVirus complaints, [read this](https://github.com/pyzo/pyzo/issues/800).
+    * Read more in [Windows installation instructions](install_windows).
 
-Otherwise, see [all releases](https://github.com/pyzo/pyzo/releases)
-for more downloads (e.g. 32/64 bit Windows zipfiles, and older versions).
-Linux users can also [install Pyzo using Linux system packages](install_linux).
-See the [installation page](install) for more information.
+* MacOS:
+    * [Download Pyzo dmg](https://github.com/pyzo/pyzo/releases/download/v4.14.3/pyzo-4.14.3-macos_x86_64.dmg)
+    * If you get a warning about Apple being unable to check the file, use right-click-open.
+    * Read more in [MacOS installation instructions](install_macos).
+
+* Linux:
+    * [Download Pyzo tarball](https://github.com/pyzo/pyzo/releases/download/v4.14.3/pyzo-4.14.3-linux_x86_64.tar.gz)
+    * Build on Ubuntu 18.04, 64bit.
+    * Read more in [Linux installation instructions](install_linux).
+
 
 <br />
 ## Step 2: install Python environment
