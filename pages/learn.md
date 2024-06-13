@@ -49,8 +49,8 @@ things work differently in Python.
 ## Packages
 
 If you want to get started with a certain library, you can in most cases
-best have a look at the library's website and search for tutorials and 
-documentation. 
+best have a look at the library's website and search for tutorials and
+documentation.
 
 The [Scipy Stack](http://scipy.org/about.html#the-scipy-stack):
 
@@ -60,18 +60,18 @@ The [Scipy Stack](http://scipy.org/about.html#the-scipy-stack):
   * [pandas](http://pandas.pydata.org/) - data structures and analysis
   * [sympy](http://sympy.org) - symbolic math
   * [IPython](http://www.ipython.org/) - advanced interactive shell
-  
+
 Further scientific packages:
-  
+
   * [pyopengl](http://pyopengl.sourceforge.net/) - talk to your GPU
-  * [visvis](https://code.google.com/p/visvis/) - 3D plotting and visualization
+  * [visvis](https://github.com/almarklein/visvis) - 3D plotting and visualization
   * [skimage](http://scikit-learn.org) - 2D and 3D image processing
   * [sklearn](http://www.numpy.org/) - machine learning
   * [imageio](http://imageio.readthedocs.org/) - read and write image data
   * [keras](https://keras.io/) - deep learning
 
 Further non-science-specific packages:
-  
+
   * [requests](http://www.python-requests.org/‎) - make htttp request
   * [PySide2](https://wiki.qt.io/Qt_for_Python) - bindings to the Qt widget toolkit
   * [Flexx](https://flexx.readthedocs.io) - build (web) apps using just Python

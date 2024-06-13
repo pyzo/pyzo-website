@@ -30,7 +30,7 @@ asset_handler = asgineer.utils.make_asset_handler(create_assets())
 
 redirects = {
     "www.pyzo.org": "https://pyzo.org",
-    "community.pyzo.org": "https://groups.google.com/forum/#!forum/pyzo",
+    "community.pyzo.org": "https://github.com/pyzo/pyzo/discussions",
     "repo.pyzo.org": "https://github.com/pyzo/pyzo",
     "issues.pyzo.org": "https://github.com/pyzo/pyzo/issues",
     "guide.pyzo.org": "https://pyzo.org/guide.html",
