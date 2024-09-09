@@ -47,7 +47,7 @@ See the [install section](install_packages) in the guide.
 ### Pyzo does not look native on Linux GTK
 
 For various reasons, the Pyzo binaries do not come with the GTK theme.
-However, you can force Pyzo to use you system PySide/PyQt4 libraries.
+However, you can force Pyzo to use your system PySide/PyQt4 libraries.
 Note that this only works if you Python version is ABI compatible with the 
 one used to freeze Pyzo. See the file 'qt.conf' for more information.
 Of course, you can also simply run Pyzo from source.
@@ -56,4 +56,4 @@ Of course, you can also simply run Pyzo from source.
 ### Pyzo loses some key hits when running from source on new Ubuntu
 
 See [issue #247](https://github.com/pyzo/pyzo/issues/247).
-It probably helps to re-install PySide/Qt
+It probably helps to re-install PySide/Qt.

@@ -51,7 +51,7 @@ Editor
   * Undo / redo.
   * Highlighting of current line.  
   * Long line indicator.
-  * Chooice of multiple fonts, Pyzo comes with two beautiful fonts by default.  
+  * Choice of multiple fonts, Pyzo comes with two beautiful fonts by default.
   * Breakpoints for debugging.
 
 
@@ -94,7 +94,7 @@ Standard tools
     scrolling through an autocompletion list.)  
   * Workspace: lists all variables (also in debug mode).
   * File browser: browse files and search inside files.
-  * Logger: a logger shell that displays Pyzo's log messaged and can be used for development or 
+  * Logger: a logger shell that displays Pyzo's log messages and can be used for development or
     for changing advanced settings.
 
   
