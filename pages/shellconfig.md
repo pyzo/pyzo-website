@@ -15,7 +15,7 @@ Each config has the following fields:
 * **gui**: The gui toolkit to use. Enabling this allows you to do
   interactive plotting. By default this value is set on "auto".
 * **pythonpath**: provide a directory name on each line. These directories are
-  used by Python to search for modules. 
+  used by Python to search for modules.
 * **startupScript**: a script to run at startup. You can also just write a few
   lines of code here.
 * **startDir**: the initial directory.

@@ -11,7 +11,7 @@ See also [issue #403](https://github.com/pyzo/pyzo/issues/403):
 
 ```
 VIRTUAL_ENV=/path/to/venv
-PATH=/path/to/venv/bin:$PATH 
+PATH=/path/to/venv/bin:$PATH
 ```
 
 
@@ -20,7 +20,7 @@ PATH=/path/to/venv/bin:$PATH
 When working with Matplotlib, make sure you have ``pyqt`` installed
 (``conda install pyqt``). The shell should integrate it automatically.
 Then, you need to tell Matplotlib to be interactive:
-    
+
 ```py
 import matplotlib.pyplot as plt
 plt.ion()
@@ -48,7 +48,7 @@ See the [install section](install_packages) in the guide.
 
 For various reasons, the Pyzo binaries do not come with the GTK theme.
 However, you can force Pyzo to use your system PySide/PyQt4 libraries.
-Note that this only works if you Python version is ABI compatible with the 
+Note that this only works if you Python version is ABI compatible with the
 one used to freeze Pyzo. See the file 'qt.conf' for more information.
 Of course, you can also simply run Pyzo from source.
 

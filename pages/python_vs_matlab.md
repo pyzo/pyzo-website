@@ -1,6 +1,6 @@
 # Python vs Matlab
 
-We regularly hear of people (and whole research groups) that 
+We regularly hear of people (and whole research groups) that
 transition from Matlab to Python. The scientific Python ecosystem
 has been maturing fast in the past few years, and Python is an appealing
 alternative, because it's free, open source, and becoming ever more
@@ -18,7 +18,7 @@ language and interpreter, Python also consists of an extensive standard
 library. This library is aimed at programming in general and contains
 modules for os specific stuff, threading, networking, databases, etc.
 
-[Matlab](http://en.wikipedia.org/wiki/MATLAB) 
+[Matlab](http://en.wikipedia.org/wiki/MATLAB)
 is a commercial numerical computing environment and programming language.
 The concept of Matlab refers to the whole package, including the IDE.
 The standard library does not contain as much generic programming
@@ -43,8 +43,8 @@ available, some of which are for free.
 Because Python is open and free, it is very easy for other parties to
 design packages or other software tools that extend Python. It is
 possible to create applications using any of the mayor GUI libraries
-(e.g. [Qt](http://qt.io/)), use OpenGL, drive your USB port, 
-etc. Another example is [Cython](http://www.cython.org/) to enhance 
+(e.g. [Qt](http://qt.io/)), use OpenGL, drive your USB port,
+etc. Another example is [Cython](http://www.cython.org/) to enhance
 the speed of algorithms by converting Python to C code, and PyInstaller
 to create a standalone application from your source.
 
@@ -77,23 +77,23 @@ shortcomings. Most of these arise from its commercial nature:
     releases a new version every 6 months.
   * The proprietary nature also makes it difficult/impossible for 3th
     parties to extend the functionality of Matlab.
-    
+
 Furtheremore, there are some other issues that stem from Matlabs origins
 as a matrix manipulation package:
 
   * The semicolon. It can be useful to show the result when you type
     code in the console, but in scripts it does not make any sense that
     one must end a line with a semicolon in order to suppress output.
-  * Indexing is done with braces rather than brackets, making it 
+  * Indexing is done with braces rather than brackets, making it
     difficult to distinguish it from a function call.
-        
 
-## Advantages of Matlab 
+
+## Advantages of Matlab
 
 Of course, Matlab has its advantages too:
 
-  * It has a solid amount of functions. 
-  * Simulink is a product for which there is no good alternative yet. 
+  * It has a solid amount of functions.
+  * Simulink is a product for which there is no good alternative yet.
   * It might be easier for beginners, because the package includes all
     you need, while in Python you need to install extra packages and
     an IDE. (Pyzo tries to solve this issue.)

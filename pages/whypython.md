@@ -25,8 +25,8 @@ easily extendible.
 Python is a general purpose language, which means that many things are
 made easy. Examples are string processing, reading/writing files,
 sockets, websites (such as this one), databases, GUI's. This is why it has been adopted
-by so many people, and for such a wide range of tasks. The large 
-[user community](http://python.org/community/) is very active and 
+by so many people, and for such a wide range of tasks. The large
+[user community](http://python.org/community/) is very active and
 known to be friendly.
 
 It's ease of use for general tasks makes Python very suitable for
@@ -41,7 +41,7 @@ out of the box, saving time and money.
 compiled as well as interpreted. Pyzo is based on cPython, the most
 common Python implementation which uses an interpreter written in C.*
 
-Being a [dynamic language](http://en.wikipedia.org/wiki/Dynamic_programming_language) 
+Being a [dynamic language](http://en.wikipedia.org/wiki/Dynamic_programming_language)
 means that new code can be executed during
 runtime without limitations. This is incredibly useful in science and
 engineering, or any other situation in which the programmer is designing
@@ -59,8 +59,8 @@ piece of code.
 ## Python is easy to read
 
 Python is designed to be easy to read. This is more important than you
-might think, because a common problem with software is that 
-[it's harder to read code than to write it](http://www.joelonsoftware.com/articles/fog0000000069.html). 
+might think, because a common problem with software is that
+[it's harder to read code than to write it](http://www.joelonsoftware.com/articles/fog0000000069.html).
 Better readability makes that it easier
 to share code or to work on software projects with other people. As
 your algorithms become more complex (as they often do in science) it
@@ -93,7 +93,7 @@ apply "hacks" to solve a certain problem. This is ok if the programmer
 is testing something, but it is the responsibility of the programmer
 to avoid these, or rewrite them to nicer code as soon as possible.
 
-Further, Python uses the concept of [docstrings](http://en.wikipedia.org/wiki/Docstring), 
+Further, Python uses the concept of [docstrings](http://en.wikipedia.org/wiki/Docstring),
 which are multi-line strings defined right below a function or class
 definition and which contains the documentation for that object. These
 can be accessed at runtime, allowing the IDE to display them to the
