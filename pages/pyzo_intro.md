@@ -15,7 +15,7 @@ or you can write code in the **editor** and execute that.
 In the editor, each open file is represented as a tab. By
 right-clicking on a tab, files can be run, saved, closed, etc.
 
-The right mouse button also enables one to make a file the 
+The right mouse button also enables one to make a file the
 **main file** of a project. This file can be recognized by its star
 symbol, and it enables running the file more easily.
 
@@ -23,10 +23,10 @@ symbol, and it enables running the file more easily.
 ## The shell is where your code gets executed
 
 <img src='pyzo_shell1.png' align='right'>
-    
+
 When Pyzo starts, a default shell is created. You can add more
 shells that run simultaneously, and which may be of different
-Python versions. 
+Python versions.
 
 Shells run in a sub-process, such
 that when it is busy, Pyzo itself stays responsive, allowing you
@@ -37,7 +37,7 @@ to keep coding and even run code in another shell.
 
 <img src='pyzo_run1.png' align='right' width='250px'>
 
-Pyzo supports several ways to run source code in the editor. 
+Pyzo supports several ways to run source code in the editor.
 (see also the "Run" menu):
 
   * **Run selection:** if there is no selected text, the
@@ -46,7 +46,7 @@ Pyzo supports several ways to run source code in the editor.
     will run the the (complete) selected lines.
   * **Run cell:** a cell is everything between two commands starting
     with ``##`` or ``#%%``.
-  * **Run file:** this runs all the code in the current file. 
+  * **Run file:** this runs all the code in the current file.
   * **Run project main file:** runs the code in the current project's
     main file.
 
@@ -60,4 +60,4 @@ be positioned in any way you want, and can also be un-docked.
 
 Note that the tools system is designed such that it's easy to
 create your own tools. Look at the online wiki for more information,
-or use one of the existing tools as an example. 
+or use one of the existing tools as an example.

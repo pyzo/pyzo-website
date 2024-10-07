@@ -55,7 +55,7 @@ packages can be installed.
 
 
 <br />
-## Step 3: Configure Pyzo shell
+## Step 3: configure Pyzo shell
 
 In Pyzo you can configure one or more shells to target your Python
 environment(s). Pyzo is usually pretty good at detecting any installed
@@ -64,7 +64,7 @@ one.
 
 
 <br />
-## Step 4: Install additional packages
+## Step 4: install additional packages
 
 Depending on you needs, you might need a few extra packages. In Pyzo's shell, type:
 

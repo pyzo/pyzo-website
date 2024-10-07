@@ -50,7 +50,7 @@ Otherwise, if a package is not available, you can always try Pip!
 
 ## Other solutions
 
-If you are on Windows, you can visit 
+If you are on Windows, you can visit
 [Gohlke's collection of Python packages](http://www.lfd.uci.edu/~gohlke/pythonlibs/).
 Download the required ``.whl`` file and use ``pip install location/to/xxx.whl``.
 

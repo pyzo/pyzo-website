@@ -37,5 +37,5 @@ code that will run fast in Python:
     dynamic library. This can be a very effective means to communicate
     with existing code. No compilation required.
 
-  * Cython can also be used to wrap your exitsing C/C++ code for Python.
+  * Cython can also be used to wrap your existing C/C++ code for Python.
     You are then using Cython in a way that is similar to Matlab's mex-files.

@@ -5,7 +5,7 @@ data-centric programming. We focus on the Python programming language,
 an easy yet powerful language that is very suitable for a wide variety
 of tasks; Python is great for learning, science and data analysis, as
 well as application development. We are passionate about Python and we
-want to give everyone the opportunity to use it. 
+want to give everyone the opportunity to use it.
 
 Pyzo, Python, and most scientific Python packages, are BSD-licensed (and
 therefore usable in commercial applications). We believe that scientific
