@@ -14,7 +14,7 @@ Shell
 -----
 
   * The pythonic shells run in a subprocess and can therefore be interrupted or killed.
-  * Several shells can be used simultaneously, and can be of different Python versions (v2.4 - v3.x).
+  * Several shells can be used simultaneously, and can be of different Python versions (v2.7 - v3.x).
   * Pypy is supported, Jython and IronPython may be too (untested).
   * Command history.
   * Text in the shell can be selected and copied. Text can be pasted to the command line.
